@@ -1,0 +1,1501 @@
+object FormDetails: TFormDetails
+  Left = 377
+  Height = 457
+  Top = 129
+  Width = 742
+  AutoSize = True
+  BorderStyle = bsDialog
+  ClientHeight = 457
+  ClientWidth = 742
+  Color = clWhite
+  OnActivate = FormActivate
+  OnClose = FormClose
+  Position = poDesktopCenter
+  LCLVersion = '1.4.0.4'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 421
+    Top = 0
+    Width = 742
+    ActivePage = TabSheetIqomat
+    Align = alClient
+    ShowTabs = False
+    TabIndex = 3
+    TabOrder = 0
+    object TabSheetAzonBomdod: TTabSheet
+      Caption = 'Азон (Бомдод)'
+      ClientHeight = 413
+      ClientWidth = 734
+      object LabelAzonBomdodDesc: TLabel
+        Left = 10
+        Height = 150
+        Top = 10
+        Width = 714
+        Align = alTop
+        BorderSpacing.Around = 10
+        Caption = 'Азон намоз вақти кирганидан огоҳлантирувчи, намозга чорловчи чақириқдир. Кундалик беш вақт намоз ва жума намозлари учун азон айтиш таъкидланган суннатдир. Азон намоз вақти киргач, таҳорат билан қиблага юзланиб, тик турган ҳолда икки қўлнинг кўрсаткич бармоқларини қулоқ ичига қўйиб, баланд овозда, дона-дона қилиб айтилади. Муаззин «Ҳаййа ълас-солаҳ» калимасида бошини ўнг тарафга, «Ҳаййа ъалал-фалаҳ» калимасида чап тарафга буради. Азонни эшитган киши ишдан, масжиддан бошқа томонга юришдан, сўзлашдан тўхтайди. Муаззиннинг ортидан азон калималарини айтиб туради. Муаззин «Ҳаййа ъалас-солаҳ», деганида «Лаа ҳавла ва лаа қуввата иллаа биллаҳил ъалиййил-аъзийм», дейди, «Ҳаййа ъалал фалаҳ», деганида эса «Маа ша Аллоҳу каана вама алам йашаъ лам якун», дейди. Сафарда ва жомеъ масжидларида азонни тарк қилиш макруҳ, бироқ шаҳар ичидаги хонадонларда уни тарк этиш макруҳ эмас. Жунуб, ақлдан озган, фосиқ, маст, таҳоратсиз кишилар, ақлсиз болалар ва аёлларнинг азон айтишлари макруҳдир. Қазо намозлари учун азон айтилади. Ҳайит намозлари ҳамда жаноза намозига азон айтилмайди.'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelAzonBomdodAr: TLabel
+        Left = 10
+        Height = 233
+        Top = 170
+        Width = 129
+        Align = alLeft
+        Alignment = taRightJustify
+        BorderSpacing.Around = 10
+        Caption = #13#10'اَللهُ اَكْبَرُ اَللهُ اَكْبَرُ '#13#10'اَللهُ اَكْبَرُ اَللهُ اَكْبَرُ '#13#10'أَشْهَدُ أَنْ لآ إِلهَ إِلاَّ اللهُ '#13#10'أَشْهَدُ أَنْ لآ إِلهَ إِلاَّ اللهُ'#13#10'أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ '#13#10'أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ '#13#10'حَيَّ عَلَى الصَّلاةِ '#13#10'حَيَّ عَلَى الصَّلاةِ '#13#10'حَيَّ عَلَى الْفَلاحِ '#13#10'حَيَّ عَلَى الْفَلاحِ'#13#10'اَلصَّلاةُ خَيْرٌ مِنَ النَّوْمِ '#13#10'اَلصَّلاةُ خَيْرٌ مِنَ النَّوْمِ '#13#10'اَللهُ اَكْبَرُ اَللهُ اَكْبَرُ '#13#10'لآ إِلهَ إِلاَّ اللهُ '
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelAzonBomdodTrans: TLabel
+        Left = 149
+        Height = 233
+        Top = 170
+        Width = 225
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = #13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Ашҳаду аллаа илааҳа иллаллоҳ'#13#10'Ашҳаду аллаа илааҳа иллаллоҳ'#13#10'Ашҳаду анна Муҳаммадар расуулуллоҳ'#13#10'Ашҳаду анна Муҳаммадар расуулуллоҳ'#13#10'Ҳаййа ълас-солааҳ'#13#10'Ҳаййа ълас-солааҳ'#13#10'Ҳаййа ъалал-фалааҳ'#13#10'Ҳаййа ъалал-фалааҳ'#13#10'Ас-солату хойрум минан-навм'#13#10'Ас-солату хойрум минан-навм'#13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Лаа илааҳа иллаллоҳ'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelAzonBomdodUz: TLabel
+        Left = 384
+        Height = 233
+        Top = 170
+        Width = 334
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Гувоҳлик бераманки, Аллоҳдан бошқа илоҳ йўқ'#13#10'Гувоҳлик бераманки, Аллоҳдан бошқа илоҳ йўқ'#13#10'Гувоҳлик бераманки, Муҳаммад Аллоҳнинг пайғамбаридир'#13#10'Гувоҳлик бераманки, Муҳаммад Аллоҳнинг пайғамбаридир'#13#10'Намозга келингиз'#13#10'Намозга келингиз'#13#10'Нажотга келингиз'#13#10'Нажотга келингиз'#13#10'Намоз уйқудан афзал'#13#10'Намоз уйқудан афзал'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Аллоҳдан ўзга илоҳ йўқ'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheetAzon: TTabSheet
+      Caption = 'Азон'
+      ClientHeight = 413
+      ClientWidth = 734
+      object LabelAzonDesc: TLabel
+        Left = 10
+        Height = 150
+        Top = 10
+        Width = 714
+        Align = alTop
+        BorderSpacing.Around = 10
+        Caption = 'Азон намоз вақти кирганидан огоҳлантирувчи, намозга чорловчи чақириқдир. Кундалик беш вақт намоз ва жума намозлари учун азон айтиш таъкидланган суннатдир. Азон намоз вақти киргач, таҳорат билан қиблага юзланиб, тик турган ҳолда икки қўлнинг кўрсаткич бармоқларини қулоқ ичига қўйиб, баланд овозда, дона-дона қилиб айтилади. Муаззин «Ҳаййа ълас-солаҳ» калимасида бошини ўнг тарафга, «Ҳаййа ъалал-фалаҳ» калимасида чап тарафга буради. Азонни эшитган киши ишдан, масжиддан бошқа томонга юришдан, сўзлашдан тўхтайди. Муаззиннинг ортидан азон калималарини айтиб туради. Муаззин «Ҳаййа ъалас-солаҳ», деганида «Лаа ҳавла ва лаа қуввата иллаа биллаҳил ъалиййил-аъзийм», дейди, «Ҳаййа ъалал фалаҳ», деганида эса «Маа ша Аллоҳу каана вама алам йашаъ лам якун», дейди. Сафарда ва жомеъ масжидларида азонни тарк қилиш макруҳ, бироқ шаҳар ичидаги хонадонларда уни тарк этиш макруҳ эмас. Жунуб, ақлдан озган, фосиқ, маст, таҳоратсиз кишилар, ақлсиз болалар ва аёлларнинг азон айтишлари макруҳдир. Қазо намозлари учун азон айтилади. Ҳайит намозлари ҳамда жаноза намозига азон айтилмайди.'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelAzonAr: TLabel
+        Left = 10
+        Height = 233
+        Top = 170
+        Width = 129
+        Align = alLeft
+        Alignment = taRightJustify
+        BorderSpacing.Around = 10
+        Caption = #13#10'اَللهُ اَكْبَرُ اَللهُ اَكْبَرُ '#13#10'اَللهُ اَكْبَرُ اَللهُ اَكْبَرُ '#13#10'أَشْهَدُ أَنْ لآ إِلهَ إِلاَّ اللهُ '#13#10'أَشْهَدُ أَنْ لآ إِلهَ إِلاَّ اللهُ'#13#10'أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ '#13#10'أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ '#13#10'حَيَّ عَلَى الصَّلاةِ '#13#10'حَيَّ عَلَى الصَّلاةِ '#13#10'حَيَّ عَلَى الْفَلاحِ '#13#10'حَيَّ عَلَى الْفَلاحِ'#13#10'اَللهُ اَكْبَرُ اَللهُ اَكْبَرُ '#13#10'لآ إِلهَ إِلاَّ اللهُ '
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelAzonTrans: TLabel
+        Left = 149
+        Height = 233
+        Top = 170
+        Width = 225
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = #13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Ашҳаду аллаа илааҳа иллаллоҳ'#13#10'Ашҳаду аллаа илааҳа иллаллоҳ'#13#10'Ашҳаду анна Муҳаммадар расуулуллоҳ'#13#10'Ашҳаду анна Муҳаммадар расуулуллоҳ'#13#10'Ҳаййа ълас-солааҳ'#13#10'Ҳаййа ълас-солааҳ'#13#10'Ҳаййа ъалал-фалааҳ'#13#10'Ҳаййа ъалал-фалааҳ'#13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Лаа илааҳа иллаллоҳ'
+        Color = clWhite
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        Transparent = False
+      end
+      object LabelAzonUz: TLabel
+        Left = 384
+        Height = 233
+        Top = 170
+        Width = 334
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Гувоҳлик бераманки, Аллоҳдан бошқа илоҳ йўқ'#13#10'Гувоҳлик бераманки, Аллоҳдан бошқа илоҳ йўқ'#13#10'Гувоҳлик бераманки, Муҳаммад Аллоҳнинг пайғамбаридир'#13#10'Гувоҳлик бераманки, Муҳаммад Аллоҳнинг пайғамбаридир'#13#10'Намозга келингиз'#13#10'Намозга келингиз'#13#10'Нажотга келингиз'#13#10'Нажотга келингиз'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Аллоҳдан ўзга илоҳ йўқ'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheetAzonDuo: TTabSheet
+      Caption = 'Азон дуоси'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelAzonDuoAr: TLabel
+        Left = 10
+        Height = 15
+        Top = 10
+        Width = 888
+        Align = alTop
+        Alignment = taRightJustify
+        BorderSpacing.Around = 10
+        Caption = 'اَللّهُمَّ رَبَّ هذِهِ الدَّعْوَةِ التّامَّةِ وَالصَّلاةِ الْقائِمَةِ آتِ سَيِّدَنا مَحَمَّدً الْوَسيلَةَ وَالْفَضيلَةَ وَابْعَثْهُ مَقامًا مَحْمُودًا الَّذي وَعَدْتَهُ وَارْزُقْنا شَفاعَتَهُ يَوْمَ الْقِيامَةِ إِنَّكَ لا تُخْلِفُ الْميعادْ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelAzonDuoTrans: TLabel
+        Left = 10
+        Height = 30
+        Top = 35
+        Width = 888
+        Align = alTop
+        BorderSpacing.Around = 10
+        Caption = 'Аллоҳумма! Робба ҳазиҳид-даъватит таммаҳ. Вассолатил қоимаҳ, ати Муҳаммаданил васийлата вал фазийлаҳ. Вабъасҳу мақомам маҳмуданиллазий ваъадтаҳ. Варзуқна шафаъатаҳу явмал қиёмаҳ. Иннака лаа тухлифул мийъад.'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelAzonDuoUz: TLabel
+        Left = 10
+        Height = 60
+        Top = 75
+        Width = 888
+        Align = alTop
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Эй ушбу мукаммал дуо ва ҳамда абадий салавот Парвардигори. Муҳаммад алайҳиссаломнинг мартабаларини улуғ қилиб, неъматларингни унга бисёр қилгайсан, ул зотга Ўзинг ваъда қилган макоми маҳмудни (жаннатдаги ўринни) ато этгайсан. Қиёматда бизга унинг шафоатини насиб этгайсан. Сен зинҳор ваъдага хилоф қилмайсан.'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+    object TabSheetIqomat: TTabSheet
+      Caption = 'Иқомат'
+      ClientHeight = 413
+      ClientWidth = 734
+      object LabelIqomatDesc: TLabel
+        Left = 10
+        Height = 60
+        Top = 10
+        Width = 714
+        Align = alTop
+        BorderSpacing.Around = 10
+        Caption = 'Кундалик беш вақт намоз ва жума намозлари учун иқомат айтиш таъкидланган суннатдир. Сафарда ва жомеъ масжидларида иқоматни тарк қилиш макруҳ, бироқ шаҳар ичидаги хонадонларда уни тарк этиш макруҳ эмас. Жунуб кишининг иқомат айтиши макруҳдир. Иқомат фарз намозлари олдидан айтилади. Қазо намозлари учун иқомат айтилади. Ҳайит намозлари ҳамда жаноза намозига иқомат айтилмайди.'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelIqomatAr: TLabel
+        Left = 10
+        Height = 323
+        Top = 80
+        Width = 149
+        Align = alLeft
+        Alignment = taRightJustify
+        BorderSpacing.Around = 10
+        Caption = #13#10'اَللهُ اَكْبَرُ اَللهُ اَكْبَرُ '#13#10'اَللهُ اَكْبَرُ اَللهُ اَكْبَرُ '#13#10'أَشْهَدُ أَنْ لآ إِلهَ إِلاَّ اللهُ '#13#10'أَشْهَدُ أَنْ لآ إِلهَ إِلاَّ اللهُ'#13#10'أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ '#13#10'أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ '#13#10'حَيَّ عَلَى الصَّلاةِ '#13#10'حَيَّ عَلَى الصَّلاةِ '#13#10'حَيَّ عَلَى الْفَلاحِ '#13#10'حَيَّ عَلَى الْفَلاحِ'#13#10'قَدْ قامَتِ الصَّلاةُ قَدْ قامَتِ الصَّلاةُ'#13#10'اَللهُ اَكْبَرُ اَللهُ اَكْبَرُ '#13#10'لآ إِلهَ إِلاَّ اللهُ '
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelIqomatTrans: TLabel
+        Left = 169
+        Height = 323
+        Top = 80
+        Width = 227
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = #13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Ашҳаду аллаа илааҳа иллаллоҳ'#13#10'Ашҳаду аллаа илааҳа иллаллоҳ'#13#10'Ашҳаду анна Муҳаммадар расуулуллоҳ'#13#10'Ашҳаду анна Муҳаммадар расуулуллоҳ'#13#10'Ҳаййа ълас-солааҳ'#13#10'Ҳаййа ълас-солааҳ'#13#10'Ҳаййа ъалал-фалааҳ'#13#10'Ҳаййа ъалал-фалааҳ'#13#10'Қод қоматис-солаҳ Қод қоматис-солаҳ'#13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Лаа илааҳа иллаллоҳ'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelIqomatUz: TLabel
+        Left = 406
+        Height = 323
+        Top = 80
+        Width = 334
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Гувоҳлик бераманки, Аллоҳдан бошқа илоҳ йўқ'#13#10'Гувоҳлик бераманки, Аллоҳдан бошқа илоҳ йўқ'#13#10'Гувоҳлик бераманки, Муҳаммад Аллоҳнинг пайғамбаридир'#13#10'Гувоҳлик бераманки, Муҳаммад Аллоҳнинг пайғамбаридир'#13#10'Намозга келингиз'#13#10'Намозга келингиз'#13#10'Нажотга келингиз'#13#10'Нажотга келингиз'#13#10'Намоз бошланиб қолди Намоз бошланиб қолди'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Аллоҳдан ўзга илоҳ йўқ'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheetTakbir: TTabSheet
+      Caption = 'Такбир'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelTakbirAr: TLabel
+        Left = 10
+        Height = 15
+        Top = 10
+        Width = 888
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'اَللهُ اَكْبَرُ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelTakbirTrans: TLabel
+        Left = 10
+        Height = 15
+        Top = 35
+        Width = 888
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Аллоҳу акбар'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelTakbirUz: TLabel
+        Left = 10
+        Height = 30
+        Top = 60
+        Width = 888
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Аллоҳ улуғдир'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheetSano: TTabSheet
+      Caption = 'Сано'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelSanoAr: TLabel
+        Left = 10
+        Height = 15
+        Top = 10
+        Width = 888
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'سُبْحَا نَكَ الّٰلهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَالٰى جَدُّكَ وَ لآ اِلٰهَ غَيْرُكَ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelSanoTrans: TLabel
+        Left = 10
+        Height = 15
+        Top = 35
+        Width = 888
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Субҳанакаллоҳумма ва биҳамдика ва табарокасмука ва таъала жаддука ва ла илаҳа ғойрук'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelSanoUz: TLabel
+        Left = 10
+        Height = 30
+        Top = 60
+        Width = 888
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Аллоҳим! Сени пок Зот деб ёд килурман. Сенинг исминг муборакдир. Мартабанг улуғдир. Сендан ўзга илоҳ йўқдир.'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+    object TabSheetTaavvuz: TTabSheet
+      Caption = 'Таъаввуз'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelTaavvuzAr: TLabel
+        Left = 10
+        Height = 15
+        Top = 10
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'أَعُوذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيمِ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelTaavvuzTrans: TLabel
+        Left = 10
+        Height = 15
+        Top = 35
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Аъузу биллаҳи минаш шайтонир рожийм'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelTaavvuzUz: TLabel
+        Left = 10
+        Height = 30
+        Top = 60
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Аллоҳнинг даргоҳидан қувилган шайтон ёмонлигидан Аллоҳнинг паноҳига қочаман'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+    object TabSheetBasmala: TTabSheet
+      Caption = 'Басмала'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelBasmalaAr: TLabel
+        Left = 10
+        Height = 15
+        Top = 10
+        Width = 888
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'بِسْمِ اللهِ الرَّحْمَنِ الرَّحيِمِ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelBasmalaTrans: TLabel
+        Left = 10
+        Height = 15
+        Top = 35
+        Width = 888
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Бисмиллаҳир роҳманир роҳийм'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelBasmalaUz: TLabel
+        Left = 10
+        Height = 30
+        Top = 60
+        Width = 888
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Меҳрибон ва раҳмли Аллоҳ номи билан (бошлайман)'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+    object TabSheetFotiha: TTabSheet
+      Caption = 'Фотиҳа'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelFotihaAr: TLabel
+        Left = 10
+        Height = 417
+        Top = 10
+        Width = 159
+        Align = alLeft
+        Alignment = taRightJustify
+        BorderSpacing.Around = 10
+        Caption = #13#10' الْحَمْدُ لِلَّـهِ رَ‌بِّ الْعَالَمِينَ'#13#10'الرَّ‌حْمَـٰنِ الرَّ‌حِيم'#13#10'مَالِكِ يَوْمِ الدِّينِ'#13#10'إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ'#13#10'اهْدِنَا الصِّرَ‌اطَ الْمُسْتَقِيمَ'#13#10' صِرَ‌اطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ'#13#10' غَيْرِ‌ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelFotihaTrans: TLabel
+        Left = 179
+        Height = 417
+        Top = 10
+        Width = 241
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = #13#10'Алҳамду лиллаҳи роббил ъаламийн'#13#10'Ар-роҳманир-роҳийм'#13#10'Малики явмиддийн'#13#10'Иййака наъбуду ва иййака настаъин'#13#10'Иҳдинас сиротол мустақийм'#13#10'Cиротол-лазийна анъамта ъалайҳим'#13#10'Ғойрил мағзуби ъалайҳим валаззоллийн'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelFotihaUz: TLabel
+        Left = 430
+        Height = 417
+        Top = 10
+        Width = 415
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Барча мақтов, шукрлар оламларнинг Робби Аллоҳга бўлсин'#13#10'У Роҳман ва Раҳиймдир'#13#10'У қиёмат кунининг эгаси'#13#10'Фақат сенгагина ибодат қиламиз ва фақат сендангина ёрдам сўраймиз'#13#10'Бизни тўғри йўлга бошлагин'#13#10'Ўзинг неъмат берганларнинг йўлига (бошлагин),'#13#10'Ғазабга дучор бўлганларнинг йўлига эмас, адашганларникига ҳам эмас'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+    object TabSheetKavsar: TTabSheet
+      Caption = 'Кавсар'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelKavsarAr: TLabel
+        Left = 10
+        Height = 451
+        Top = 10
+        Width = 93
+        Align = alLeft
+        Alignment = taRightJustify
+        BorderSpacing.Around = 10
+        Caption = #13#10'إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ'#13#10'فَصَلِّ لِرَ‌بِّكَ وَانْحَرْ'#13#10'إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelKavsarUz: TLabel
+        Left = 113
+        Height = 451
+        Top = 10
+        Width = 161
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = #13#10'Иннаа аътойнакал кавсар'#13#10'Фасолли лироббика ванҳар'#13#10'Инна шаниака ҳувал абтар'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelKavsarTrans: TLabel
+        Left = 284
+        Height = 451
+        Top = 10
+        Width = 332
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Албатта, Биз сенга Кавсарни бердик'#13#10'Бас, Роббингга намоз ўқи ва жонлик сўй'#13#10'Албатта, сени ёмон кўриб, айбловчининг орқаси кесикдир'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheetIxlos: TTabSheet
+      Caption = 'Ихлос'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelIxlosAr: TLabel
+        Left = 10
+        Height = 417
+        Top = 10
+        Width = 94
+        Align = alLeft
+        Alignment = taRightJustify
+        BorderSpacing.Around = 10
+        Caption = #13#10'قُلْ هُوَ اللَّـهُ أَحَدٌ'#13#10'اللَّـهُ الصَّمَدُ'#13#10'لَمْ يَلِدْ وَلَمْ يُولَدْ'#13#10'وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelIxlosTrans: TLabel
+        Left = 114
+        Height = 417
+        Top = 10
+        Width = 175
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = #13#10'Қул ҳуваллоҳу аҳад'#13#10'Аллоҳус-сомад'#13#10'Лам йалид ва лам йулад'#13#10'Ва лам якуллаҳу куфуван аҳад'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelIxlosUz: TLabel
+        Left = 299
+        Height = 417
+        Top = 10
+        Width = 175
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Айт: «У Аллоҳ ягонадир»'#13#10'Аллоҳ сомаддир'#13#10'У туғмаган ва туғилмаган'#13#10'Ва Унга ҳеч ким тенг бўлмаган'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheetFalaq: TTabSheet
+      Caption = 'Фалақ'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelFalaqAr: TLabel
+        Left = 10
+        Height = 417
+        Top = 10
+        Width = 127
+        Align = alLeft
+        Alignment = taRightJustify
+        BorderSpacing.Around = 10
+        Caption = #13#10'قُلْ أَعُوذُ بِرَ‌بِّ الْفَلَقِ'#13#10'مِن شَرِّ‌ مَا خَلَقَ'#13#10'وَمِن شَرِّ‌ غَاسِقٍ إِذَا وَقَبَ'#13#10'وَمِن شَرِّ‌ النَّفَّاثَاتِ فِي الْعُقَدِ'#13#10'وَمِن شَرِّ‌ حَاسِدٍ إِذَا حَسَدَ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelFalaqTrans: TLabel
+        Left = 147
+        Height = 417
+        Top = 10
+        Width = 219
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = #13#10'Қул аъузу бироббил фалақ'#13#10'Мин шарри ма холақ'#13#10'Ва мин шарри ғосиқин иза вақоб'#13#10'Ва мин шаррин наффасати фил ъуқод'#13#10'Ва мин шарри ҳасидин иза ҳасад'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelFalaqUz: TLabel
+        Left = 376
+        Height = 417
+        Top = 10
+        Width = 293
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Тонг Роббисидан паноҳ сўрайман'#13#10'У яратган нарсалар ёмонлигидан'#13#10'Ва кириб келган қоронғулик ёмонлигидан'#13#10'Ва тугунларга дам солувчилар ёмонлигидан'#13#10'Ва ҳасад қилган ҳасадчининг ёмонлигидан, деб айт'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheetNas: TTabSheet
+      Caption = 'Нас'
+      ClientHeight = 413
+      ClientWidth = 734
+      object LabelNasAr: TLabel
+        Left = 10
+        Height = 393
+        Top = 10
+        Width = 145
+        Align = alLeft
+        Alignment = taRightJustify
+        BorderSpacing.Around = 10
+        Caption = #13#10'قُلْ أَعُوذُ بِرَبِّ النَّاسِ '#13#10'مَلِكِ النَّاسِ '#13#10'إِلَٰهِ النَّاسِ'#13#10'مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ'#13#10'الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ'#13#10'مِنَ الْجِنَّةِ وَالنَّاسِ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelNasTrans: TLabel
+        Left = 165
+        Height = 393
+        Top = 10
+        Width = 196
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = #13#10'Қул аъузу бирробин-нас'#13#10'Маликин-нас'#13#10'Илаҳин-наас'#13#10'Мин шаррил-васвасил хоннас'#13#10'Аллази йувасвисуфи судурин-нас'#13#10'Минал жиннати ван-нас'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelNasUz: TLabel
+        Left = 371
+        Height = 393
+        Top = 10
+        Width = 349
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Одамлар Роббисидан'#13#10'Одамлар Подшоҳидан'#13#10'Одамлар Илоҳидан паноҳ сўрайман'#13#10'Беркиниб, кўриниб турувчи васвоснинг'#13#10'Одамлар қалбига васваса соладиганнинг'#13#10'Жинлардан ва одамлардан бўлганнинг ёмонлигидан, деб айт'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+    object TabSheetAziym: TTabSheet
+      Caption = 'Азийм'
+      ClientHeight = 413
+      ClientWidth = 734
+      object LabelAziymAr: TLabel
+        Left = 10
+        Height = 15
+        Top = 10
+        Width = 714
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'سُبْحَانَ رَبِّيَ الْعَظِيمِ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelAziymTrans: TLabel
+        Left = 10
+        Height = 15
+        Top = 35
+        Width = 714
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Субҳана Роббийал ъазийм'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelAziymUz: TLabel
+        Left = 10
+        Height = 30
+        Top = 60
+        Width = 714
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Улуғ Роббим покдир'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheetSamialloh: TTabSheet
+      Caption = 'Самиъаллоҳ'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelSamiallohAr: TLabel
+        Left = 10
+        Height = 15
+        Top = 10
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelSamiallohTrans: TLabel
+        Left = 10
+        Height = 15
+        Top = 35
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Самиъаллоҳу лиман ҳамидаҳ'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelSamiallohUz: TLabel
+        Left = 10
+        Height = 30
+        Top = 60
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Аллоҳ Ўзига ҳамд айтган кишини эшитади'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+    object TabSheetHamd: TTabSheet
+      Caption = 'Ҳамд'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelHamdAr: TLabel
+        Left = 10
+        Height = 15
+        Top = 10
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'رَبَّنَا لَكَ الحَمْدُ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelHamdTrans: TLabel
+        Left = 10
+        Height = 15
+        Top = 35
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Роббана лакал ҳамд'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelHamdUz: TLabel
+        Left = 10
+        Height = 30
+        Top = 60
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Роббимиз! Мақтов Сенгадир'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheetAla: TTabSheet
+      Caption = 'Аъла'
+      ClientHeight = 413
+      ClientWidth = 734
+      object LabelAlaAr: TLabel
+        Left = 10
+        Height = 15
+        Top = 10
+        Width = 714
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'سُبْحَانَ رَبِّيَ الْأَعْلَى'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelAlaTrans: TLabel
+        Left = 10
+        Height = 15
+        Top = 35
+        Width = 714
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Субҳана Роббийал ъала'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelAlaUz: TLabel
+        Left = 10
+        Height = 30
+        Top = 60
+        Width = 714
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Олий Роббим покдир'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheetTashahhud: TTabSheet
+      Caption = 'Ташаҳҳуд'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelTashahhudAr: TLabel
+        Left = 10
+        Height = 30
+        Top = 10
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'التَّحِيّـاتُ للهِ وَالصَّلَـواتُ والطَّيِّـبات ، السَّلامُ عَلَيـكَ أَيُّهـا النَّبِـيُّ وَرَحْمَـةُ اللهِ وَبَرَكـاتُه ، السَّلامُ عَلَيْـنا وَعَلـى عِبـادِ للهِ الصَّـالِحـين . أَشْـهَدُ أَنْ لا إِلـهَ إِلاّ الله ، وَأَشْـهَدُ أَنَّ مُحَمّـداً عَبْـدُهُ وَرَسـولُه'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelTashahhudTrans: TLabel
+        Left = 10
+        Height = 30
+        Top = 50
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Ат-таҳиййату лиллаҳи вас-солавату ват-тоййибат. Ассаламу ъалайка аййуҳан-набиййу ва роҳматуллоҳи ва барокатуҳ. Ассаламу ъалайна ва аъла ъибадиллаҳис солиҳийн. Ашҳаду алла илаҳа иллаллоҳу ва ашҳаду анна Муҳаммадан ъабдуҳу ва росулуҳу.'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelTashahhudUz: TLabel
+        Left = 10
+        Height = 45
+        Top = 90
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Барокатли табриклар ва покиза салавотлар Аллоҳ учундир. Эй Набий! Сенга салом, Аллоҳнинг раҳмати ва баракаси бўлсин. Бизларга ва Аллоҳнинг солиҳ бандаларига салом бўлсин. Аллоҳдан ўзга илоҳ йўқ деб гувоҳлик бераман ва албатта, Муҳаммад – Аллоҳнинг Расули деб гувоҳлик бераман.'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+    object TabSheetSalavot: TTabSheet
+      Caption = 'Салавот'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelSalavotAr: TLabel
+        Left = 10
+        Height = 30
+        Top = 10
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'اللّهُـمَّ صَلِّ عَلـى مُحمَّـد، وَعَلـى آلِ مُحمَّد، كَمـا صَلَّيـتَ عَلـىإبْراهـيمَ وَعَلـى آلِ إبْراهـيم، إِنَّكَ حَمـيدٌ مَجـيد ، اللّهُـمَّ بارِكْ عَلـى مُحمَّـد، وَعَلـى آلِ مُحمَّـد، كَمـا بارِكْتَ عَلـىإبْراهـيمَ وَعَلـى آلِ إبْراهيم، إِنَّكَ حَمـيدٌ مَجـيد'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelSalavotTrans: TLabel
+        Left = 10
+        Height = 30
+        Top = 50
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Аллоҳумма! Солли ъала Муҳаммадив ва ъала али Муҳаммад. Кама соллайта ъала Иброҳима ва ъала али Иброҳим. Иннака ҳамидум мажийд. Аллоҳумма! Барик ъала Муҳаммадив ва ъала али Муҳаммад. Кама барокта ъала Иброҳима ва ъала али Иброҳим. Иннака ҳамидум мажийд.'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelSalavotUz: TLabel
+        Left = 10
+        Height = 75
+        Top = 90
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Аллоҳим! Иброҳимга ва Иброҳимнинг аҳли байтларига Ўз раҳматингни нозил қилганингдек, Муҳаммадга ва Муҳаммаднинг оила аъзоларига Ўзингнинг зиёда раҳматларингни нозил қилгин! Албатта, Сен мақталган, улуғланган Зотсан! Аллоҳим! Иброҳимга ва Иброҳимнинг аҳли байтларига Ўз баракангни нозил қилганингдек, Муҳаммадга ва Муҳаммаднинг оила аъзоларига Ўз баракангни нозил қилгин! Албатта, Сен мақталган, улуғланган Зотсан!'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+    object TabSheetRobbana: TTabSheet
+      Caption = 'Роббана'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelRobbanaAr: TLabel
+        Left = 10
+        Height = 15
+        Top = 10
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'رَبَّنَا اَتِنَا فِى الدُّنْيَا حَسَنَةً وَ فِى اْلآخِرَةِ حَسَنَةً وَ قِنَا عَذَابَ النَّارِ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelRobbanaTrans: TLabel
+        Left = 10
+        Height = 15
+        Top = 35
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Роббана! Атина фид дунйа ҳасанатав ва фил ахироти ҳасанатав-ва қина ъазабан нар'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelRobbanaUz: TLabel
+        Left = 10
+        Height = 30
+        Top = 60
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Роббимиз! Бизларга дунёда ҳам, охиратда ҳам яхшилик бер ва дўзах азобидан асра'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheetSalom: TTabSheet
+      Caption = 'Салом'
+      ClientHeight = 471
+      ClientWidth = 882
+      object LabelSalomAr: TLabel
+        Left = 10
+        Height = 15
+        Top = 10
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'السَّلاَمُ عَلَيْكُمْ وَ رَحْمَةُ اللهِ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelSalomTrans: TLabel
+        Left = 10
+        Height = 15
+        Top = 35
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Ассалому алайкум ва раҳматуллоҳ'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelSalomUz: TLabel
+        Left = 10
+        Height = 30
+        Top = 60
+        Width = 862
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Сизларга Аллоҳнинг саломи ва раҳмати бўлсин'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheetQunut: TTabSheet
+      Caption = 'Қунут'
+      ClientHeight = 413
+      ClientWidth = 734
+      object LabelQunutAr: TLabel
+        Left = 10
+        Height = 75
+        Top = 10
+        Width = 714
+        Align = alTop
+        Alignment = taRightJustify
+        BorderSpacing.Around = 10
+        Caption = 'اَللَّهُمَّ اِنَّا نَسْتَعِينُكَ وَ نَسْتَغْفِرُكَ وَ نُؤْمِنُ بِكَ وَ'#13#10'نَتَوَكَّلُ عَلَيْكَ وَ نُثْنِى عَلَيْكَ الْخَيْرَ نَشْكُرُكَ'#13#10'وَ لآ نَكْفُرُكَ وَ نَخْلَعُ وَ نَتْرُكُ مَنْ يَفْجُرُكَ'#13#10'اَللَّهُمَّ اِيَّاكَ نَعْبُدُ وَ لَكَ نُصَلِّى وَ نَسْجُدُ وَ اِلَيْكَ نَسْعَى وَ نَحْفِدُ'#13#10'نَرْجُوا رَحْمَتَكَ وَ نَخْشَى عَذَابَكَ اِنَّ عَذَابَكَ بِالْكُفَّارِ مُلْحِقٌ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelQunutTrans: TLabel
+        Left = 10
+        Height = 105
+        Top = 95
+        Width = 714
+        Align = alTop
+        BorderSpacing.Around = 10
+        Caption = 'Аллоҳумма! Иннаа настаъийнука ва настағфирук.'#13#10'Ва нуъмину бика ва натаваккалу ъалайка ва нусний ъалайкал хойр.'#13#10'Нашкурука ва ла накфурук.'#13#10'Ва нахлаъу ва натруку ман йафжурук.'#13#10'Аллоҳумма! Иййака наъбуду ва лака нусоллий ва насжуду,'#13#10'ва илайка насъа ва наҳфиду, наржу роҳматака ва нахша ъазабака,'#13#10'инна ъазабака бил куффари мулҳиқ'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelQunutUz: TLabel
+        Left = 10
+        Height = 150
+        Top = 210
+        Width = 714
+        Align = alTop
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Аллоҳим! Албатта, Сендан ёрдам сўраймиз, Сендан ҳидоят сўраймиз,'#13#10'Сенга истиғфор айтамиз ва Сенга тавба қиламиз.'#13#10'Сенга иймон келтирамиз ва Сенга таваккал қиламиз.'#13#10'Сенга шукр қиламиз, куфр келтирмаймиз.'#13#10'Ва ким Сенга фожирлик қилса, уни ажратамиз ва тарк қиламиз.'#13#10'Аллоҳим! Сенгагина ибодат қиламиз, Сенгагина намоз ўқиймиз ва сажда қиламиз,'#13#10'Сенгагина интиламиз ва шошиламиз.'#13#10'Ва Сенинг раҳматингни умид қиламиз ва азобингдан қўрқамиз.'#13#10'Албатта, азобинг кофирларга етгувчидир.'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object TabSheetDuo: TTabSheet
+      Caption = 'Дуо'
+      ClientHeight = 413
+      ClientWidth = 734
+      object LabelDuoAr: TLabel
+        Left = 10
+        Height = 15
+        Top = 10
+        Width = 714
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ '
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelDuoTrans: TLabel
+        Left = 10
+        Height = 15
+        Top = 35
+        Width = 714
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Аллоҳумма, антас-салам ва минкас-салам, табарокта йа залжалали вал-икром'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelDuoUz: TLabel
+        Left = 10
+        Height = 30
+        Top = 60
+        Width = 714
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Аллоҳим! Сен Саломсан, саломатлик Сендандир. Сен Табарруксан, эй жалол ва икром эгаси'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+    object TabSheetTasbeh: TTabSheet
+      Caption = 'Тасбеҳ'
+      ClientHeight = 413
+      ClientWidth = 734
+      object PanelSubhanalloh: TPanel
+        Left = 0
+        Height = 50
+        Top = 0
+        Width = 734
+        Align = alTop
+        AutoSize = True
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 734
+        TabOrder = 0
+        object LabelSubhanallohAr: TLabel
+          Left = 10
+          Height = 30
+          Top = 10
+          Width = 54
+          Align = alLeft
+          Alignment = taRightJustify
+          BorderSpacing.Around = 10
+          Caption = #13#10'سُبْحَانَ اللهِ'
+          Font.Color = clGreen
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+        end
+        object LabelSubhanallohTrans: TLabel
+          Left = 74
+          Height = 30
+          Top = 10
+          Width = 135
+          Align = alLeft
+          BorderSpacing.Around = 10
+          Caption = #13#10'Субҳаналлоҳ (33 марта)'
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+        end
+        object LabelSubhanallohUz: TLabel
+          Left = 219
+          Height = 30
+          Top = 10
+          Width = 163
+          Align = alLeft
+          BorderSpacing.Around = 10
+          Caption = 'Маъноси:'#13#10'Аллоҳни поклаб зикр этаман'
+          Font.Style = [fsItalic]
+          ParentColor = False
+          ParentFont = False
+        end
+      end
+      object PanelAlhamdilillah: TPanel
+        Left = 0
+        Height = 50
+        Top = 50
+        Width = 734
+        Align = alTop
+        AutoSize = True
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 734
+        TabOrder = 1
+        object LabelAlhamdulillahAr: TLabel
+          Left = 10
+          Height = 30
+          Top = 10
+          Width = 41
+          Align = alLeft
+          Alignment = taRightJustify
+          BorderSpacing.Around = 10
+          Caption = #13#10'اَلْحَمْدُ لِلهِ'
+          Font.Color = clGreen
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+        end
+        object LabelAlhamdulillahTrans: TLabel
+          Left = 61
+          Height = 30
+          Top = 10
+          Width = 153
+          Align = alLeft
+          BorderSpacing.Around = 10
+          Caption = #13#10'Алҳамдулиллаҳ (33 марта)'
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+        end
+        object LabelAlhamdulillahUz: TLabel
+          Left = 224
+          Height = 30
+          Top = 10
+          Width = 153
+          Align = alLeft
+          BorderSpacing.Around = 10
+          Caption = 'Маъноси:'#13#10'Мақтовлар Аллоҳга хосдир'
+          Font.Style = [fsItalic]
+          ParentColor = False
+          ParentFont = False
+        end
+      end
+      object PanelTakbir: TPanel
+        Left = 0
+        Height = 50
+        Top = 100
+        Width = 734
+        Align = alTop
+        AutoSize = True
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 734
+        TabOrder = 2
+        object LabelTakbirAr1: TLabel
+          Left = 10
+          Height = 30
+          Top = 10
+          Width = 39
+          Align = alLeft
+          Alignment = taRightJustify
+          BorderSpacing.Around = 10
+          Caption = #13#10'اَللَّهُ اَكْبَرُ'
+          Font.Color = clGreen
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+        end
+        object LabelTakbirTrans1: TLabel
+          Left = 59
+          Height = 30
+          Top = 10
+          Width = 139
+          Align = alLeft
+          BorderSpacing.Around = 10
+          Caption = #13#10'Аллоҳу акбар (33 марта)'
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+        end
+        object LabelTakbirUz1: TLabel
+          Left = 208
+          Height = 30
+          Top = 10
+          Width = 80
+          Align = alLeft
+          BorderSpacing.Around = 10
+          Caption = 'Маъноси:'#13#10'Аллоҳ улуғдир'
+          Font.Style = [fsItalic]
+          ParentColor = False
+          ParentFont = False
+        end
+      end
+      object LabelTavhidAr: TLabel
+        Left = 10
+        Height = 15
+        Top = 160
+        Width = 714
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'لاَ اِلَهَ اِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ.لَهُ الْمُلْكُ وَ لَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelTavhidTrans: TLabel
+        Left = 10
+        Height = 15
+        Top = 185
+        Width = 714
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Ла илаҳа иллаллоҳу ваҳдаҳу ла шарика лаҳу, лаҳул мулку ва лаҳул ҳамду ва ҳува ъала кулли шайъин қодир'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+      object LabelTavhidUz: TLabel
+        Left = 10
+        Height = 45
+        Top = 210
+        Width = 714
+        Align = alTop
+        Alignment = taCenter
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Аллоҳдан ўзга илоҳ йўқ. У ягонадир, шериги йўқ, бутун мулк Уникидир. Ҳамд-мақтов Унга хосдир. Ва У ҳар нарсага қодир зотдир.'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+        WordWrap = True
+      end
+    end
+    object TabSheetKursi: TTabSheet
+      Caption = 'Оятал Курсий'
+      ClientHeight = 413
+      ClientWidth = 734
+      object LabelKursiAr: TLabel
+        Left = 10
+        Height = 393
+        Top = 10
+        Width = 194
+        Align = alLeft
+        Alignment = taRightJustify
+        BorderSpacing.Around = 10
+        Caption = #13#10'اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ'#13#10'لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ '#13#10'لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ '#13#10'مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ '#13#10'يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ'#13#10'وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ '#13#10' وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ '#13#10'وَلَا يَئُودُهُ حِفْظُهُمَا '#13#10'وَهُوَ الْعَلِيُّ الْعَظِيمُ'
+        Font.Color = clGreen
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelKursiTrans: TLabel
+        Left = 214
+        Height = 393
+        Top = 10
+        Width = 334
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = #13#10'Аллоҳу ла илаҳа илла ҳувал ҳаййул қоййум.'#13#10'Ла таъхузуҳу cинатув ва ла навм.'#13#10'Лаҳу ма фис-самавати ва ма фил ард.'#13#10'Ман-заллазии йашфаъу ъиндаҳу илла би изниҳ.'#13#10'Йаъламу ма байна айдийҳим ва ма холфаҳум.'#13#10'Ва ла йуҳитуна бишайъим-мин ъилмиҳии илла бима ша.'#13#10'Васиъа курсийюуҳус-самаавати вал-ард.'#13#10'Ва ла йаудуҳу ҳифзуҳума'#13#10'Ва ҳувал ъалиййул ъазийм'
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object LabelKursiUz: TLabel
+        Left = 558
+        Height = 393
+        Top = 10
+        Width = 424
+        Align = alLeft
+        BorderSpacing.Around = 10
+        Caption = 'Маъноси:'#13#10'Аллоҳ – Ундан ўзга илоҳ йўқ. У Ҳайй ва Қаййумдир.'#13#10'Уни мудроқ ҳам, уйқу ҳам олмас.'#13#10'Осмонлару ердаги нарсалар Уникидир.'#13#10'Унинг ҳузурида Ўзининг изнисиз ҳеч ким шафоат қила олмас.'#13#10'Уларнинг олдиларидаги нарсани ҳам, ортларидаги нарсани ҳам билур.'#13#10'Унинг илмидан Ўзи хоҳлаганидан бошқа ҳеч нарсани иҳота қила олмаслар.'#13#10'Унинг Курсиси осмонлару ерни қамраган.'#13#10'Уларни муҳофаза қилиш унга оғир келмас.'#13#10'Ва У Алий ва Азиймдир.'
+        Font.Style = [fsItalic]
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 36
+    Top = 421
+    Width = 742
+    Align = alBottom
+    AutoSize = True
+    BevelOuter = bvNone
+    ClientHeight = 36
+    ClientWidth = 742
+    TabOrder = 1
+    object ButtonPlay: TSpeedButton
+      Left = 0
+      Height = 36
+      Hint = 'Ижро эттириш'
+      Top = 0
+      Width = 36
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000064000000640000000000000000000000000000000000
+        000004733AFF21824FFF638272FF000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        000004733AFF7ACFA4FF2C8C5AFF3D7659FFAEAEAEFF00000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        000004733AFF82D8ACFF76D6A6FF3C9D6AFF27744CFFACAEADFF000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        000009773FFF83DBAEFF1FC671FF72DEA7FF4BB27FFF177445FFA8ADAAFF0000
+        0000000000000000000000000000000000000000000000000000000000000000
+        000004733AFF83DCAFFF11C369FF1ACC73FF69DFA3FF5AC28DFF137643FF9EA7
+        A3FF000000000000000000000000000000000000000000000000000000000000
+        000004733AFFA9DCC1FF10BD65FF11C167FF13C269FF59D395FF67C998FF167C
+        47FF889C92FF0000000000000000000000000000000000000000000000000000
+        000004733AFFA9DCC1FF0DB35EFF0EB660FF0EB660FF0DB45FFF47C484FF70CA
+        9CFF1D824DFF678C79FF00000000000000000000000000000000000000000000
+        000004733AFFA9DCC1FF0CAA58FF12AE5EFF15AF60FF16AD61FF13AA5DFF3AB6
+        77FF75C79DFF288957FF4E8367FF000000000000000000000000000000000000
+        000004733AFFA9DCC1FF2EAD6BFF2BAD6AFF27AB68FF22A964FF1CA55FFF41B2
+        78FF78C69FFF298858FF678C79FF000000000000000000000000000000000000
+        000004733AFFA9DCC1FF36AD70FF32AC6DFF2DAA6AFF28A866FF58BC89FF78C5
+        9DFF1F804EFF839A8EFF00000000000000000000000000000000000000000000
+        000004733AFFA9DCC1FF3EB176FF3AAF73FF36AE70FF6FC598FF71BF97FF187B
+        49FFA6B0ABFF0000000000000000000000000000000000000000000000000000
+        000004733AFFA9DCC1FF45B47BFF47B47CFF82CCA6FF67B68CFF177745FFC1C5
+        C3FF000000000000000000000000000000000000000000000000000000000000
+        000004733AFFA5DABFFF57BB87FF90D2B0FF5BAB82FF23774CFFD4D5D4FF0000
+        0000000000000000000000000000000000000000000000000000000000000000
+        000004733AFFA9DCC1FF9BD5B7FF4C9F73FF3D7D5CFF00000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        000004733AFFA4D9BEFF3D9366FF5F8873FF0000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        000004733AFF2D8859FF859C90FF000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000
+      }
+      OnClick = ButtonPlayClick
+      ShowHint = True
+      ParentShowHint = False
+    end
+    object ButtonStop: TSpeedButton
+      Left = 72
+      Height = 36
+      Hint = 'Тўхтатиш'
+      Top = 0
+      Width = 36
+      Enabled = False
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF004550BFE6393986E6393986E6393986E6393986E6393986E6393986E63939
+        86E6393986E6393986E6393986E6393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF004550BFE68796F6FF7C8DF7FF7284F8FF687CF8FF5E73FAFF536AFAFF4A63
+        FAFF425CFBFF3A55FCFF334FFCFF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF004550BFE6929EF5FF8796F6FF7C8DF7FF7285F8FF687CF9FF5E73F9FF546B
+        FAFF4B63FBFF425CFBFF3955FCFF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF004550BFE69BA7F5FF929FF5FF8796F7FF7C8DF7FF7284F8FF677CF8FF5E73
+        F9FF546BFAFF4A63FBFF415CFBFF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF004550BFE6A6AFF4FF9CA7F5FF919FF5FF8796F6FF7D8DF7FF7184F7FF687C
+        F8FF5D73F9FF546AFAFF4A63FBFF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF004550BFE6AEB7F3FFA5AFF5FF9CA7F5FF919FF5FF8796F7FF7C8DF7FF7284
+        F8FF687BF9FF5D73F9FF536BFAFF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF004550BFE6B7BEF3FFAFB7F4FFA6B0F4FF9BA8F5FF929FF6FF8796F6FF7C8D
+        F7FF7284F8FF677BF8FF5D73F9FF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF004550BFE6BFC5F2FFB7BEF3FFAFB7F4FFA5AFF4FF9CA7F5FF929FF6FF8795
+        F6FF7D8DF7FF7284F8FF687CF8FF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF004550BFE6C7CAF1FFBFC5F3FFB7BEF3FFAEB7F4FFA6AFF4FF9BA7F5FF929F
+        F6FF8796F6FF7C8DF7FF7284F7FF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF004550BFE6CCD0F1FFC6CBF1FFBFC5F2FFB7BFF3FFAFB7F4FFA6AFF5FF9BA8
+        F5FF919FF6FF8796F6FF7D8DF7FF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF004550BFE6D1D4F1FFCCD0F2FFC6CBF2FFBFC5F2FFB7BEF3FFAEB8F3FFA5AF
+        F4FF9BA8F4FF919FF5FF8795F6FF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF004550BFE64550BFE64550BFE64550BFE64550BFE64550BFE64550BFE64550
+        BFE64550BFE64550BFE64550BFE64550BFE6FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+      }
+      OnClick = ButtonStopClick
+      ShowHint = True
+      ParentShowHint = False
+    end
+    object ButtonPause: TSpeedButton
+      Left = 36
+      Height = 36
+      Hint = 'Пауза'
+      Top = 0
+      Width = 36
+      Enabled = False
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000064000000640000000000000000000000EEEEEE00EEEE
+        EE00EEEEEE00987050FFA46534FFA46534FF987050FFFBE3BC00FBE3BC009870
+        50FFA46534FFA46534FF987050FF000000000000000000000000987050009870
+        5000987050009F683EFFC99C76FFCDA585FF9F683EFF98705000987050009F68
+        3EFFC99C76FFCDA585FF9F683EFF000000000000000000000000A2663800A266
+        3800A2663800A36535FFD7AC88FFE1C5ADFFA36535FFA2663800A2663800A365
+        35FFD7AC88FFE1C5ADFFA36535FF000000000000000000000000A4653400A465
+        3400A4653400A46534FFD8A981FFE6CCB5FFA46534FFA4653400A4653400A465
+        34FFD8A981FFE6CCB5FFA46534FF000000000000000000000000A4653400A465
+        3400A4653400A46534FFD7A77FFFE6CCB5FFA46534FFA4653400A4653400A465
+        34FFD7A77FFFE6CCB5FFA46534FF000000000000000000000000A4653400A465
+        3400A4653400A46534FFD7A981FFE6CDB6FFA46534FFA4653400A4653400A465
+        34FFD7A981FFE6CDB6FFA46534FF000000000000000000000000A4653400A465
+        3400A4653400A46534FFD8AB84FFE6CEB7FFA46534FFA4653400A4653400A465
+        34FFD8AB84FFE6CEB7FFA46534FF000000000000000000000000A4653400A465
+        3400A4653400A46534FFD9AE89FFE6CEB7FFA46534FFA4653400A4653400A465
+        34FFD9AE89FFE6CEB7FFA46534FF000000000000000000000000A4653400A465
+        3400A4653400A46534FFD9B08DFFE6CEB7FFA46534FFA4653400A4653400A465
+        34FFD9B08DFFE6CEB7FFA46534FF000000000000000000000000A4653400A465
+        3400A4653400A46534FFD9B28FFFE6CEB7FFA46534FFA4653400A4653400A465
+        34FFD9B28FFFE6CEB7FFA46534FF000000000000000000000000A4653400A465
+        3400A4653400A46534FFDAB391FFE6CEB7FFA46534FFA4653400A4653400A465
+        34FFDAB391FFE6CEB7FFA46534FF000000000000000000000000A4653400A465
+        3400A4653400A46534FFDAB593FFE6CFB9FFA46534FFA4653400A4653400A465
+        34FFDAB593FFE6CFB9FFA46534FF000000000000000000000000A4653400A465
+        3400A4653400A46534FFDBB694FFE7D1BBFFA46534FFA4653400A4653400A465
+        34FFDBB694FFE7D1BBFFA46534FF000000000000000000000000A4653400A465
+        3400A4653400A46534FFDDBC9DFFE7D1BCFFA46534FFA4653400A4653400A465
+        34FFDDBC9DFFE7D1BCFFA46534FF000000000000000000000000996E4C00996E
+        4C00996E4C00A26637FFDCBFA4FFDFC6AFFFA26637FF996E4C00996E4C00A266
+        37FFDCBFA4FFDFC6AFFFA26637FF000000000000000000000000EEEEEE00EEEE
+        EE00EEEEEE00996E4CFFAB7143FFAC7244FF996E4CFFFBE3BC00FBE3BC00996E
+        4CFFAB7143FFAC7244FF996E4CFF000000000000000000000000
+      }
+      OnClick = ButtonPauseClick
+      ShowHint = True
+      ParentShowHint = False
+    end
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    left = 664
+    top = 368
+  end
+end
