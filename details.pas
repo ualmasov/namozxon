@@ -25,134 +25,45 @@ unit Details;
 interface
 
 uses
-  LCLIntf, LCLType, Classes, SysUtils, FileUtil, Forms, Controls, Graphics,
-  Dialogs, ComCtrls, ExtCtrls, Buttons, StdCtrls, Bass;
+  Classes, SysUtils, Forms, LCLIntf, LCLType, ComCtrls, ExtCtrls, Buttons,
+  StdCtrls, BASS;
 
 type
 
   { TFormDetails }
 
   TFormDetails = class(TForm)
-    LabelAlaAr: TLabel;
-    LabelAlaTrans: TLabel;
-    LabelAlaUz: TLabel;
-    LabelAlhamdulillahAr: TLabel;
-    LabelAlhamdulillahTrans: TLabel;
-    LabelAlhamdulillahUz: TLabel;
-    LabelDuoAr: TLabel;
-    LabelDuoTrans: TLabel;
-    LabelDuoUz: TLabel;
-    LabelAzonAr: TLabel;
-    LabelAzonBomdodAr: TLabel;
-    LabelAzonBomdodTrans: TLabel;
-    LabelAzonBomdodUz: TLabel;
-    LabelAzonTrans: TLabel;
-    LabelAzonUz: TLabel;
-    LabelAziymAr: TLabel;
-    LabelAziymTrans: TLabel;
-    LabelAziymUz: TLabel;
-    LabelAzonBomdodDesc: TLabel;
-    LabelAzonDesc: TLabel;
-    LabelAzonDuoAr: TLabel;
-    LabelAzonDuoTrans: TLabel;
-    LabelAzonDuoUz: TLabel;
-    LabelBasmalaAr: TLabel;
-    LabelBasmalaTrans: TLabel;
-    LabelBasmalaUz: TLabel;
-    LabelFalaqAr: TLabel;
-    LabelFalaqTrans: TLabel;
-    LabelFalaqUz: TLabel;
-    LabelFotihaAr: TLabel;
-    LabelFotihaTrans: TLabel;
-    LabelFotihaUz: TLabel;
-    LabelIqomatUz: TLabel;
-    LabelIqomatAr: TLabel;
-    LabelIqomatDesc: TLabel;
-    LabelIqomatTrans: TLabel;
-    LabelIxlosAr: TLabel;
-    LabelIxlosTrans: TLabel;
-    LabelIxlosUz: TLabel;
-    LabelKavsarAr: TLabel;
-    LabelKavsarTrans: TLabel;
-    LabelKavsarUz: TLabel;
-    LabelQunutAr: TLabel;
-    LabelQunutTrans: TLabel;
-    LabelQunutUz: TLabel;
-    LabelKursiAr: TLabel;
-    LabelKursiTrans: TLabel;
-    LabelKursiUz: TLabel;
-    LabelNasAr: TLabel;
-    LabelNasTrans: TLabel;
-    LabelNasUz: TLabel;
-    LabelHamdAr: TLabel;
-    LabelHamdTrans: TLabel;
-    LabelHamdUz: TLabel;
-    LabelRobbanaAr: TLabel;
-    LabelRobbanaTrans: TLabel;
-    LabelRobbanaUz: TLabel;
-    LabelSalavotAr: TLabel;
-    LabelSalavotTrans: TLabel;
-    LabelSalavotUz: TLabel;
-    LabelSalomAr: TLabel;
-    LabelSalomTrans: TLabel;
-    LabelSalomUz: TLabel;
-    LabelSamiallohAr: TLabel;
-    LabelSamiallohTrans: TLabel;
-    LabelSamiallohUz: TLabel;
-    LabelSanoAr: TLabel;
-    LabelSanoTrans: TLabel;
-    LabelSanoUz: TLabel;
-    LabelSubhanallohAr: TLabel;
-    LabelSubhanallohTrans: TLabel;
-    LabelSubhanallohUz: TLabel;
-    LabelTaavvuzAr: TLabel;
-    LabelTaavvuzTrans: TLabel;
-    LabelTaavvuzUz: TLabel;
-    LabelTakbirAr: TLabel;
-    LabelTakbirAr1: TLabel;
-    LabelTakbirTrans: TLabel;
-    LabelTakbirTrans1: TLabel;
-    LabelTakbirUz: TLabel;
-    LabelTakbirUz1: TLabel;
-    LabelTashahhudAr: TLabel;
-    LabelTashahhudTrans: TLabel;
-    LabelTashahhudUz: TLabel;
-    LabelTavhidAr: TLabel;
-    LabelTavhidTrans: TLabel;
-    LabelTavhidUz: TLabel;
+    LabelAlaAr, LabelAlaTrans, LabelAlaUz, LabelAlhamdulillahAr,
+    LabelAlhamdulillahTrans, LabelAlhamdulillahUz, LabelDuoAr, LabelDuoTrans,
+    LabelDuoUz, LabelAzonBomdodDesc, LabelAzonBomdodAr, LabelAzonBomdodTrans,
+    LabelAzonBomdodUz, LabelAzonDesc, LabelAzonAr, LabelAzonTrans, LabelAzonUz,
+    LabelAziymAr, LabelAziymTrans, LabelAziymUz, LabelAzonDuoAr,
+    LabelAzonDuoTrans, LabelAzonDuoUz, LabelBasmalaAr, LabelBasmalaTrans,
+    LabelBasmalaUz, LabelFotihaAr, LabelFotihaTrans, LabelFotihaUz, LabelFalaqAr,
+    LabelFalaqTrans, LabelFalaqUz, LabelIqomatDesc, LabelIqomatAr,
+    LabelIqomatTrans, LabelIqomatUz, LabelIxlosAr, LabelIxlosTrans, LabelIxlosUz,
+    LabelKavsarAr, LabelKavsarTrans, LabelKavsarUz, LabelQunutAr,
+    LabelQunutTrans, LabelQunutUz, LabelKursiAr, LabelKursiTrans, LabelKursiUz,
+    LabelNasAr, LabelNasTrans, LabelNasUz, LabelHamdAr, LabelHamdTrans,
+    LabelHamdUz, LabelRobbanaAr, LabelRobbanaTrans, LabelRobbanaUz,
+    LabelSalavotAr, LabelSalavotTrans, LabelSalavotUz, LabelSalomAr,
+    LabelSalomTrans, LabelSalomUz, LabelSamiallohAr, LabelSamiallohTrans,
+    LabelSamiallohUz, LabelSanoAr, LabelSanoTrans, LabelSanoUz,
+    LabelSubhanallohAr, LabelSubhanallohTrans, LabelSubhanallohUz,
+    LabelTaavvuzAr, LabelTaavvuzTrans, LabelTaavvuzUz, LabelTakbirAr,
+    LabelTakbirTrans, LabelTakbirUz, LabelTakbirAr1, LabelTakbirTrans1,
+    LabelTakbirUz1, LabelTashahhudAr, LabelTashahhudTrans, LabelTashahhudUz,
+    LabelTavhidAr, LabelTavhidTrans, LabelTavhidUz: TLabel;
     PageControl1: TPageControl;
     Panel1: TPanel;
-    ButtonPlay: TSpeedButton;
-    ButtonStop: TSpeedButton;
-    PanelAlhamdilillah: TPanel;
-    PanelSubhanalloh: TPanel;
-    PanelTakbir: TPanel;
-    ButtonPause: TSpeedButton;
-    TabSheetAzonBomdod: TTabSheet;
-    TabSheetKavsar: TTabSheet;
-    TabSheetIxlos: TTabSheet;
-    TabSheetFalaq: TTabSheet;
-    TabSheetNas: TTabSheet;
-    TabSheetAziym: TTabSheet;
-    TabSheetSamialloh: TTabSheet;
-    TabSheetHamd: TTabSheet;
-    TabSheetAla: TTabSheet;
-    TabSheetTashahhud: TTabSheet;
-    TabSheetSalavot: TTabSheet;
-    TabSheetAzon: TTabSheet;
-    TabSheetRobbana: TTabSheet;
-    TabSheetSalom: TTabSheet;
-    TabSheetQunut: TTabSheet;
-    TabSheetDuo: TTabSheet;
-    TabSheetTasbeh: TTabSheet;
-    TabSheetKursi: TTabSheet;
-    TabSheetAzonDuo: TTabSheet;
-    TabSheetIqomat: TTabSheet;
-    TabSheetTakbir: TTabSheet;
-    TabSheetSano: TTabSheet;
-    TabSheetTaavvuz: TTabSheet;
-    TabSheetBasmala: TTabSheet;
-    TabSheetFotiha: TTabSheet;
+    ButtonPlay, ButtonPause, ButtonStop: TSpeedButton;
+    PanelSubhanalloh, PanelAlhamdilillah, PanelTakbir: TPanel;
+    TabSheetAzonBomdod, TabSheetKavsar, TabSheetIxlos, TabSheetFalaq,
+    TabSheetNas, TabSheetAziym, TabSheetSamialloh, TabSheetHamd, TabSheetAla,
+    TabSheetTashahhud, TabSheetSalavot, TabSheetAzon, TabSheetRobbana,
+    TabSheetSalom, TabSheetQunut, TabSheetDuo, TabSheetTasbeh, TabSheetKursi,
+    TabSheetAzonDuo, TabSheetIqomat, TabSheetTakbir, TabSheetSano,
+    TabSheetTaavvuz, TabSheetBasmala, TabSheetFotiha: TTabSheet;
     Timer1: TTimer;
     procedure ButtonPlayClick(Sender: TObject);
     procedure ButtonStopClick(Sender: TObject);
@@ -189,17 +100,14 @@ procedure TFormDetails.FormActivate(Sender: TObject);
 var
   f: PChar;
 begin
-  // BASS.DLL версиясини текшириш
   if (HIWORD(BASS_GetVersion) <> BASSVERSION) then
     begin
       MessageBox(0,'Юкланган BASS.DLL версияси нотўғри',nil,MB_ICONERROR);
       Halt;
     end;
-  // Овозни инициализация қилиш - андоза ускунаси, 44100 Гц, стерео, 16 бит
   if not BASS_Init(-1, 44100, 0, Handle, nil) then
     Error('Овоз инициализацияси хатоси!');
 
-  // Мос овоз файлини белгилаш
   case PageControl1.ActivePageIndex of
   0: if FileExists ('ovozlar/azonbomdod.ogg') then
        begin
@@ -380,7 +288,6 @@ begin
   str := BASS_StreamCreateFile(False, f, 0, 0, 0);
 end;
 
-// Қолган вақтни ҳисоблаш
 procedure TFormDetails.ChannelPos;
 begin
   Timer1.Interval:=Trunc(BASS_ChannelBytes2Seconds(str,(BASS_ChannelGetLength(
@@ -388,7 +295,6 @@ begin
   Timer1.Enabled:=true;
 end;
 
-// Ижро эттириш тугмасини босиш
 procedure TFormDetails.ButtonPlayClick(Sender: TObject);
 begin
   BASS_ChannelPlay(str, true);
@@ -398,7 +304,6 @@ begin
   ButtonStop.Enabled:=true;
 end;
 
-// Пауза тугмасини босиш
 procedure TFormDetails.ButtonPauseClick(Sender: TObject);
 begin
   if BASS_ChannelIsActive(str) = BASS_ACTIVE_PLAYING then
@@ -416,7 +321,6 @@ begin
   ButtonStop.Enabled:=true;
 end;
 
-// Тўхтатиш тугмасини босиш
 procedure TFormDetails.ButtonStopClick(Sender: TObject);
 begin
   BASS_ChannelStop(str);
@@ -425,7 +329,6 @@ begin
   ButtonStop.Enabled:=false;
 end;
 
-// Таймер вақти чиқиши
 procedure TFormDetails.Timer1Timer(Sender: TObject);
 begin
   ButtonPlay.Enabled:=true;
@@ -433,7 +336,6 @@ begin
   ButtonStop.Enabled:=false;
 end;
 
-// Ойнани ёпиш
 procedure TFormDetails.FormClose(Sender: TObject);
 begin
   BASS_Free();

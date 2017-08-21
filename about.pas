@@ -25,8 +25,7 @@ unit About;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ComCtrls,
-  StdCtrls, ExtCtrls, LCLIntf;
+  Classes, SysUtils, Forms, ComCtrls, StdCtrls, ExtCtrls, LCLIntf, Settings;
 
 type
 
@@ -34,20 +33,12 @@ type
 
   TFormAbout = class(TForm)
     Image1: TImage;
-    LabelQuron: TLabel;
-    LabelHadis: TLabel;
-    LabelDescription: TLabel;
-    LabelEmail: TLabel;
-    LabelCopyright: TLabel;
-    LabelName: TLabel;
-    LabelBasmala: TLabel;
-    MemoBASSLicense: TMemo;
-    MemoLicense: TMemo;
+    LabelBasmala, LabelQuron, LabelHadis, LabelDescription, LabelEmail,
+    LabelCopyright, LabelName: TLabel;
+    MemoLicense, MemoBASSLicense: TMemo;
     PageControl1: TPageControl;
-    TabSheetBASSLicense: TTabSheet;
-    TabSheetNamozxon: TTabSheet;
-    TabSheetLicense: TTabSheet;
-    procedure FormCreate(Sender: TObject);
+    TabSheetNamozxon, TabSheetLicense, TabSheetBASSLicense: TTabSheet;
+    procedure FormActivate(Sender: TObject);
     procedure LabelEmailClick(Sender: TObject);
   private
     { private declarations }
@@ -64,21 +55,41 @@ implementation
 
 { TFormAbout }
 
-procedure TFormAbout.FormCreate(Sender: TObject);
+procedure TFormAbout.FormActivate(Sender: TObject);
 begin
+  PageControl1.ActivePageIndex:=0;
   if FileExists ('license.txt') then
     MemoLicense.Lines.LoadFromFile('license.txt')
   else
-    MemoLicense.Lines.Add('Лицензия файли топилмади.');
+    if FormSettings.ComboBoxTranslit.Text = 'Кирилл' then
+      begin
+        MemoLicense.Lines.Clear;
+        MemoLicense.Lines.Add('Лицензия файли топилмади.');
+      end
+  else
+    begin
+      MemoLicense.Lines.Clear;
+      MemoLicense.Lines.Add('Litsenziya fayli topilmadi.');
+    end;
+
   if FileExists ('bass_license.txt') then
     MemoBASSLicense.Lines.LoadFromFile('bass_license.txt')
   else
-    MemoBASSLicense.Lines.Add('Лицензия файли топилмади.')
+    if FormSettings.ComboBoxTranslit.Text = 'Кирилл' then
+      begin
+         MemoBASSLicense.Lines.Clear;
+         MemoBASSLicense.Lines.Add('Лицензия файли топилмади.');
+      end
+  else
+    begin
+      MemoBASSLicense.Lines.Clear;
+      MemoBASSLicense.Lines.Add('Litsenziya fayli topilmadi.');
+    end;
 end;
 
 procedure TFormAbout.LabelEmailClick(Sender: TObject);
 begin
-  OpenURL('mailto:u.almasov@gmail.com');
+  OpenURL('mailto:umidjonalmasov@gmail.com');
 end;
 
 end.

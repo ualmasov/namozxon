@@ -8,7 +8,7 @@ uses
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
   Forms, Main,
-  Settings, About, Details
+  Settings, About, Details, Translit, Actions, ImagesLoad, ShowDetails
   { you can add units after this };
 
 {$R *.res}

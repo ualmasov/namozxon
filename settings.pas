@@ -25,8 +25,8 @@ unit Settings;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ButtonPanel,
-  IniPropStorage, StdCtrls, ComCtrls, ExtCtrls;
+  Classes, SysUtils, Forms, ButtonPanel, IniPropStorage, StdCtrls, ComCtrls,
+  Translit, Actions;
 
 type
 
@@ -36,19 +36,12 @@ type
     ButtonPanel1: TButtonPanel;
     CheckBox1: TCheckBox;
     ComboBoxTranslit: TComboBox;
-    GroupBox1: TGroupBox;
-    GroupBoxInterface: TGroupBox;
-    GroupBoxTray: TGroupBox;
+    GroupBoxInterface, GroupBoxRun, GroupBoxTray: TGroupBox;
     IniPropStorage1: TIniPropStorage;
-    LabelTranslit: TLabel;
-    LabelTimeout: TLabel;
-    LabelTimeoutValue: TLabel;
-    LabelInterval: TLabel;
+    LabelTranslit, LabelTimeout, LabelTimeoutValue, LabelInterval,
     LabelIntervalValue: TLabel;
-    RadioButton0: TRadioButton;
-    RadioButton1: TRadioButton;
-    TrackBarTimeout: TTrackBar;
-    TrackBarInterval: TTrackBar;
+    RadioButton0, RadioButton1: TRadioButton;
+    TrackBarTimeout, TrackBarInterval: TTrackBar;
     procedure CancelButtonClick(Sender: TObject);
     procedure CheckBox1Change(Sender: TObject);
     procedure FormActivate(Sender: TObject);
@@ -65,6 +58,7 @@ var
   FormSettings: TFormSettings;
 
 implementation
+
 uses
   Main;
 
@@ -72,10 +66,15 @@ uses
 
 { TFormSettings }
 
-// Созламалар файли жойлашувини белгилаш
 procedure TFormSettings.FormCreate(Sender: TObject);
 begin
   IniPropStorage1.IniFileName:=GetAppConfigDir(false)+'namozxon.ini';
+end;
+
+procedure TFormSettings.FormActivate(Sender: TObject);
+begin
+  FormMain.IniPropStorage1.Save;
+  IniPropStorage1.Save;
 end;
 
 procedure TFormSettings.CheckBox1Change(Sender: TObject);
@@ -100,32 +99,27 @@ begin
     end;
 end;
 
-procedure TFormSettings.FormActivate(Sender: TObject);
-begin
-  FormMain.IniPropStorage1.Save;
-  IniPropStorage1.Save;
-end;
-
 procedure TFormSettings.FormClose(Sender: TObject);
 begin
-  IniPropStorage1.Restore;// Созламаларни тиклаш
+  IniPropStorage1.Restore;
 end;
 
 procedure TFormSettings.OKButtonClick(Sender: TObject);
 begin
   FormMain.TrayIcon1.BalloonTimeout:=TrackBarTimeout.Position*1000;
   FormMain.Timer1.Interval:=TrackBarInterval.Position*60000;
-  FormMain.ProcedureAmallar;
-  if ComboBoxTranslit.Text = 'Кирилл' then FormMain.ProcedureInterfaceKirill
+  Amallar;
+  if ComboBoxTranslit.Text = 'Кирилл' then
+    InterfaceKirill
   else
-    FormMain.ProcedureInterfaceLotin;
+    InterfaceLotin;
   FormMain.IniPropStorage1.Save;
   IniPropStorage1.Save;
 end;
 
 procedure TFormSettings.CancelButtonClick(Sender: TObject);
 begin
-  IniPropStorage1.Restore;// Созламаларни тиклаш
+  IniPropStorage1.Restore;
 end;
 
 end.

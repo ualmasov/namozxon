@@ -11,7 +11,7 @@ object FormDetails: TFormDetails
   OnActivate = FormActivate
   OnClose = FormClose
   Position = poDesktopCenter
-  LCLVersion = '1.4.0.4'
+  LCLVersion = '1.6.0.4'
   object PageControl1: TPageControl
     Left = 0
     Height = 421
@@ -23,7 +23,7 @@ object FormDetails: TFormDetails
     TabIndex = 3
     TabOrder = 0
     object TabSheetAzonBomdod: TTabSheet
-      Caption = 'Азон (Бомдод)'
+      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelAzonBomdodDesc: TLabel
@@ -33,7 +33,7 @@ object FormDetails: TFormDetails
         Width = 714
         Align = alTop
         BorderSpacing.Around = 10
-        Caption = 'Азон намоз вақти кирганидан огоҳлантирувчи, намозга чорловчи чақириқдир. Кундалик беш вақт намоз ва жума намозлари учун азон айтиш таъкидланган суннатдир. Азон намоз вақти киргач, таҳорат билан қиблага юзланиб, тик турган ҳолда икки қўлнинг кўрсаткич бармоқларини қулоқ ичига қўйиб, баланд овозда, дона-дона қилиб айтилади. Муаззин «Ҳаййа ълас-солаҳ» калимасида бошини ўнг тарафга, «Ҳаййа ъалал-фалаҳ» калимасида чап тарафга буради. Азонни эшитган киши ишдан, масжиддан бошқа томонга юришдан, сўзлашдан тўхтайди. Муаззиннинг ортидан азон калималарини айтиб туради. Муаззин «Ҳаййа ъалас-солаҳ», деганида «Лаа ҳавла ва лаа қуввата иллаа биллаҳил ъалиййил-аъзийм», дейди, «Ҳаййа ъалал фалаҳ», деганида эса «Маа ша Аллоҳу каана вама алам йашаъ лам якун», дейди. Сафарда ва жомеъ масжидларида азонни тарк қилиш макруҳ, бироқ шаҳар ичидаги хонадонларда уни тарк этиш макруҳ эмас. Жунуб, ақлдан озган, фосиқ, маст, таҳоратсиз кишилар, ақлсиз болалар ва аёлларнинг азон айтишлари макруҳдир. Қазо намозлари учун азон айтилади. Ҳайит намозлари ҳамда жаноза намозига азон айтилмайди.'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -60,7 +60,7 @@ object FormDetails: TFormDetails
         Width = 225
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = #13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Ашҳаду аллаа илааҳа иллаллоҳ'#13#10'Ашҳаду аллаа илааҳа иллаллоҳ'#13#10'Ашҳаду анна Муҳаммадар расуулуллоҳ'#13#10'Ашҳаду анна Муҳаммадар расуулуллоҳ'#13#10'Ҳаййа ълас-солааҳ'#13#10'Ҳаййа ълас-солааҳ'#13#10'Ҳаййа ъалал-фалааҳ'#13#10'Ҳаййа ъалал-фалааҳ'#13#10'Ас-солату хойрум минан-навм'#13#10'Ас-солату хойрум минан-навм'#13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Лаа илааҳа иллаллоҳ'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -72,14 +72,14 @@ object FormDetails: TFormDetails
         Width = 334
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Гувоҳлик бераманки, Аллоҳдан бошқа илоҳ йўқ'#13#10'Гувоҳлик бераманки, Аллоҳдан бошқа илоҳ йўқ'#13#10'Гувоҳлик бераманки, Муҳаммад Аллоҳнинг пайғамбаридир'#13#10'Гувоҳлик бераманки, Муҳаммад Аллоҳнинг пайғамбаридир'#13#10'Намозга келингиз'#13#10'Намозга келингиз'#13#10'Нажотга келингиз'#13#10'Нажотга келингиз'#13#10'Намоз уйқудан афзал'#13#10'Намоз уйқудан афзал'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Аллоҳдан ўзга илоҳ йўқ'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetAzon: TTabSheet
-      Caption = 'Азон'
+      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelAzonDesc: TLabel
@@ -89,7 +89,7 @@ object FormDetails: TFormDetails
         Width = 714
         Align = alTop
         BorderSpacing.Around = 10
-        Caption = 'Азон намоз вақти кирганидан огоҳлантирувчи, намозга чорловчи чақириқдир. Кундалик беш вақт намоз ва жума намозлари учун азон айтиш таъкидланган суннатдир. Азон намоз вақти киргач, таҳорат билан қиблага юзланиб, тик турган ҳолда икки қўлнинг кўрсаткич бармоқларини қулоқ ичига қўйиб, баланд овозда, дона-дона қилиб айтилади. Муаззин «Ҳаййа ълас-солаҳ» калимасида бошини ўнг тарафга, «Ҳаййа ъалал-фалаҳ» калимасида чап тарафга буради. Азонни эшитган киши ишдан, масжиддан бошқа томонга юришдан, сўзлашдан тўхтайди. Муаззиннинг ортидан азон калималарини айтиб туради. Муаззин «Ҳаййа ъалас-солаҳ», деганида «Лаа ҳавла ва лаа қуввата иллаа биллаҳил ъалиййил-аъзийм», дейди, «Ҳаййа ъалал фалаҳ», деганида эса «Маа ша Аллоҳу каана вама алам йашаъ лам якун», дейди. Сафарда ва жомеъ масжидларида азонни тарк қилиш макруҳ, бироқ шаҳар ичидаги хонадонларда уни тарк этиш макруҳ эмас. Жунуб, ақлдан озган, фосиқ, маст, таҳоратсиз кишилар, ақлсиз болалар ва аёлларнинг азон айтишлари макруҳдир. Қазо намозлари учун азон айтилади. Ҳайит намозлари ҳамда жаноза намозига азон айтилмайди.'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -116,7 +116,7 @@ object FormDetails: TFormDetails
         Width = 225
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = #13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Ашҳаду аллаа илааҳа иллаллоҳ'#13#10'Ашҳаду аллаа илааҳа иллаллоҳ'#13#10'Ашҳаду анна Муҳаммадар расуулуллоҳ'#13#10'Ашҳаду анна Муҳаммадар расуулуллоҳ'#13#10'Ҳаййа ълас-солааҳ'#13#10'Ҳаййа ълас-солааҳ'#13#10'Ҳаййа ъалал-фалааҳ'#13#10'Ҳаййа ъалал-фалааҳ'#13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Лаа илааҳа иллаллоҳ'
+        Caption = ''
         Color = clWhite
         Font.Style = [fsBold]
         ParentColor = False
@@ -130,14 +130,14 @@ object FormDetails: TFormDetails
         Width = 334
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Гувоҳлик бераманки, Аллоҳдан бошқа илоҳ йўқ'#13#10'Гувоҳлик бераманки, Аллоҳдан бошқа илоҳ йўқ'#13#10'Гувоҳлик бераманки, Муҳаммад Аллоҳнинг пайғамбаридир'#13#10'Гувоҳлик бераманки, Муҳаммад Аллоҳнинг пайғамбаридир'#13#10'Намозга келингиз'#13#10'Намозга келингиз'#13#10'Нажотга келингиз'#13#10'Нажотга келингиз'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Аллоҳдан ўзга илоҳ йўқ'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetAzonDuo: TTabSheet
-      Caption = 'Азон дуоси'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelAzonDuoAr: TLabel
@@ -162,7 +162,7 @@ object FormDetails: TFormDetails
         Width = 888
         Align = alTop
         BorderSpacing.Around = 10
-        Caption = 'Аллоҳумма! Робба ҳазиҳид-даъватит таммаҳ. Вассолатил қоимаҳ, ати Муҳаммаданил васийлата вал фазийлаҳ. Вабъасҳу мақомам маҳмуданиллазий ваъадтаҳ. Варзуқна шафаъатаҳу явмал қиёмаҳ. Иннака лаа тухлифул мийъад.'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -175,7 +175,7 @@ object FormDetails: TFormDetails
         Width = 888
         Align = alTop
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Эй ушбу мукаммал дуо ва ҳамда абадий салавот Парвардигори. Муҳаммад алайҳиссаломнинг мартабаларини улуғ қилиб, неъматларингни унга бисёр қилгайсан, ул зотга Ўзинг ваъда қилган макоми маҳмудни (жаннатдаги ўринни) ато этгайсан. Қиёматда бизга унинг шафоатини насиб этгайсан. Сен зинҳор ваъдага хилоф қилмайсан.'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -183,7 +183,7 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetIqomat: TTabSheet
-      Caption = 'Иқомат'
+      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelIqomatDesc: TLabel
@@ -193,7 +193,7 @@ object FormDetails: TFormDetails
         Width = 714
         Align = alTop
         BorderSpacing.Around = 10
-        Caption = 'Кундалик беш вақт намоз ва жума намозлари учун иқомат айтиш таъкидланган суннатдир. Сафарда ва жомеъ масжидларида иқоматни тарк қилиш макруҳ, бироқ шаҳар ичидаги хонадонларда уни тарк этиш макруҳ эмас. Жунуб кишининг иқомат айтиши макруҳдир. Иқомат фарз намозлари олдидан айтилади. Қазо намозлари учун иқомат айтилади. Ҳайит намозлари ҳамда жаноза намозига иқомат айтилмайди.'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -220,7 +220,7 @@ object FormDetails: TFormDetails
         Width = 227
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = #13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Ашҳаду аллаа илааҳа иллаллоҳ'#13#10'Ашҳаду аллаа илааҳа иллаллоҳ'#13#10'Ашҳаду анна Муҳаммадар расуулуллоҳ'#13#10'Ашҳаду анна Муҳаммадар расуулуллоҳ'#13#10'Ҳаййа ълас-солааҳ'#13#10'Ҳаййа ълас-солааҳ'#13#10'Ҳаййа ъалал-фалааҳ'#13#10'Ҳаййа ъалал-фалааҳ'#13#10'Қод қоматис-солаҳ Қод қоматис-солаҳ'#13#10'Аллоҳу акбар Аллоҳу акбар'#13#10'Лаа илааҳа иллаллоҳ'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -232,14 +232,14 @@ object FormDetails: TFormDetails
         Width = 334
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Гувоҳлик бераманки, Аллоҳдан бошқа илоҳ йўқ'#13#10'Гувоҳлик бераманки, Аллоҳдан бошқа илоҳ йўқ'#13#10'Гувоҳлик бераманки, Муҳаммад Аллоҳнинг пайғамбаридир'#13#10'Гувоҳлик бераманки, Муҳаммад Аллоҳнинг пайғамбаридир'#13#10'Намозга келингиз'#13#10'Намозга келингиз'#13#10'Нажотга келингиз'#13#10'Нажотга келингиз'#13#10'Намоз бошланиб қолди Намоз бошланиб қолди'#13#10'Аллоҳ улуғдир Аллоҳ улуғдир'#13#10'Аллоҳдан ўзга илоҳ йўқ'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetTakbir: TTabSheet
-      Caption = 'Такбир'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelTakbirAr: TLabel
@@ -264,7 +264,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Аллоҳу акбар'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -277,14 +277,14 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Аллоҳ улуғдир'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetSano: TTabSheet
-      Caption = 'Сано'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelSanoAr: TLabel
@@ -309,7 +309,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Субҳанакаллоҳумма ва биҳамдика ва табарокасмука ва таъала жаддука ва ла илаҳа ғойрук'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -323,7 +323,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Аллоҳим! Сени пок Зот деб ёд килурман. Сенинг исминг муборакдир. Мартабанг улуғдир. Сендан ўзга илоҳ йўқдир.'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -331,7 +331,7 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetTaavvuz: TTabSheet
-      Caption = 'Таъаввуз'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelTaavvuzAr: TLabel
@@ -356,7 +356,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Аъузу биллаҳи минаш шайтонир рожийм'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -370,7 +370,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Аллоҳнинг даргоҳидан қувилган шайтон ёмонлигидан Аллоҳнинг паноҳига қочаман'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -378,7 +378,7 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetBasmala: TTabSheet
-      Caption = 'Басмала'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelBasmalaAr: TLabel
@@ -403,7 +403,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Бисмиллаҳир роҳманир роҳийм'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -417,7 +417,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Меҳрибон ва раҳмли Аллоҳ номи билан (бошлайман)'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -425,7 +425,7 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetFotiha: TTabSheet
-      Caption = 'Фотиҳа'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelFotihaAr: TLabel
@@ -449,7 +449,7 @@ object FormDetails: TFormDetails
         Width = 241
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = #13#10'Алҳамду лиллаҳи роббил ъаламийн'#13#10'Ар-роҳманир-роҳийм'#13#10'Малики явмиддийн'#13#10'Иййака наъбуду ва иййака настаъин'#13#10'Иҳдинас сиротол мустақийм'#13#10'Cиротол-лазийна анъамта ъалайҳим'#13#10'Ғойрил мағзуби ъалайҳим валаззоллийн'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -462,7 +462,7 @@ object FormDetails: TFormDetails
         Width = 415
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Барча мақтов, шукрлар оламларнинг Робби Аллоҳга бўлсин'#13#10'У Роҳман ва Раҳиймдир'#13#10'У қиёмат кунининг эгаси'#13#10'Фақат сенгагина ибодат қиламиз ва фақат сендангина ёрдам сўраймиз'#13#10'Бизни тўғри йўлга бошлагин'#13#10'Ўзинг неъмат берганларнинг йўлига (бошлагин),'#13#10'Ғазабга дучор бўлганларнинг йўлига эмас, адашганларникига ҳам эмас'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -470,7 +470,7 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetKavsar: TTabSheet
-      Caption = 'Кавсар'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelKavsarAr: TLabel
@@ -494,7 +494,7 @@ object FormDetails: TFormDetails
         Width = 161
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = #13#10'Иннаа аътойнакал кавсар'#13#10'Фасолли лироббика ванҳар'#13#10'Инна шаниака ҳувал абтар'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -507,14 +507,14 @@ object FormDetails: TFormDetails
         Width = 332
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Албатта, Биз сенга Кавсарни бердик'#13#10'Бас, Роббингга намоз ўқи ва жонлик сўй'#13#10'Албатта, сени ёмон кўриб, айбловчининг орқаси кесикдир'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetIxlos: TTabSheet
-      Caption = 'Ихлос'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelIxlosAr: TLabel
@@ -538,7 +538,7 @@ object FormDetails: TFormDetails
         Width = 175
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = #13#10'Қул ҳуваллоҳу аҳад'#13#10'Аллоҳус-сомад'#13#10'Лам йалид ва лам йулад'#13#10'Ва лам якуллаҳу куфуван аҳад'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -550,14 +550,14 @@ object FormDetails: TFormDetails
         Width = 175
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Айт: «У Аллоҳ ягонадир»'#13#10'Аллоҳ сомаддир'#13#10'У туғмаган ва туғилмаган'#13#10'Ва Унга ҳеч ким тенг бўлмаган'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetFalaq: TTabSheet
-      Caption = 'Фалақ'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelFalaqAr: TLabel
@@ -581,7 +581,7 @@ object FormDetails: TFormDetails
         Width = 219
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = #13#10'Қул аъузу бироббил фалақ'#13#10'Мин шарри ма холақ'#13#10'Ва мин шарри ғосиқин иза вақоб'#13#10'Ва мин шаррин наффасати фил ъуқод'#13#10'Ва мин шарри ҳасидин иза ҳасад'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -593,14 +593,14 @@ object FormDetails: TFormDetails
         Width = 293
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Тонг Роббисидан паноҳ сўрайман'#13#10'У яратган нарсалар ёмонлигидан'#13#10'Ва кириб келган қоронғулик ёмонлигидан'#13#10'Ва тугунларга дам солувчилар ёмонлигидан'#13#10'Ва ҳасад қилган ҳасадчининг ёмонлигидан, деб айт'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetNas: TTabSheet
-      Caption = 'Нас'
+      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelNasAr: TLabel
@@ -624,7 +624,7 @@ object FormDetails: TFormDetails
         Width = 196
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = #13#10'Қул аъузу бирробин-нас'#13#10'Маликин-нас'#13#10'Илаҳин-наас'#13#10'Мин шаррил-васвасил хоннас'#13#10'Аллази йувасвисуфи судурин-нас'#13#10'Минал жиннати ван-нас'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -636,7 +636,7 @@ object FormDetails: TFormDetails
         Width = 349
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Одамлар Роббисидан'#13#10'Одамлар Подшоҳидан'#13#10'Одамлар Илоҳидан паноҳ сўрайман'#13#10'Беркиниб, кўриниб турувчи васвоснинг'#13#10'Одамлар қалбига васваса соладиганнинг'#13#10'Жинлардан ва одамлардан бўлганнинг ёмонлигидан, деб айт'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -644,7 +644,7 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetAziym: TTabSheet
-      Caption = 'Азийм'
+      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelAziymAr: TLabel
@@ -669,7 +669,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Субҳана Роббийал ъазийм'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -682,14 +682,14 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Улуғ Роббим покдир'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetSamialloh: TTabSheet
-      Caption = 'Самиъаллоҳ'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelSamiallohAr: TLabel
@@ -714,7 +714,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Самиъаллоҳу лиман ҳамидаҳ'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -727,7 +727,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Аллоҳ Ўзига ҳамд айтган кишини эшитади'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -735,7 +735,7 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetHamd: TTabSheet
-      Caption = 'Ҳамд'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelHamdAr: TLabel
@@ -760,7 +760,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Роббана лакал ҳамд'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -773,14 +773,14 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Роббимиз! Мақтов Сенгадир'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetAla: TTabSheet
-      Caption = 'Аъла'
+      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelAlaAr: TLabel
@@ -805,7 +805,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Субҳана Роббийал ъала'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -818,14 +818,14 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Олий Роббим покдир'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetTashahhud: TTabSheet
-      Caption = 'Ташаҳҳуд'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelTashahhudAr: TLabel
@@ -851,7 +851,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Ат-таҳиййату лиллаҳи вас-солавату ват-тоййибат. Ассаламу ъалайка аййуҳан-набиййу ва роҳматуллоҳи ва барокатуҳ. Ассаламу ъалайна ва аъла ъибадиллаҳис солиҳийн. Ашҳаду алла илаҳа иллаллоҳу ва ашҳаду анна Муҳаммадан ъабдуҳу ва росулуҳу.'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -865,7 +865,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Барокатли табриклар ва покиза салавотлар Аллоҳ учундир. Эй Набий! Сенга салом, Аллоҳнинг раҳмати ва баракаси бўлсин. Бизларга ва Аллоҳнинг солиҳ бандаларига салом бўлсин. Аллоҳдан ўзга илоҳ йўқ деб гувоҳлик бераман ва албатта, Муҳаммад – Аллоҳнинг Расули деб гувоҳлик бераман.'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -873,7 +873,7 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetSalavot: TTabSheet
-      Caption = 'Салавот'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelSalavotAr: TLabel
@@ -899,7 +899,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Аллоҳумма! Солли ъала Муҳаммадив ва ъала али Муҳаммад. Кама соллайта ъала Иброҳима ва ъала али Иброҳим. Иннака ҳамидум мажийд. Аллоҳумма! Барик ъала Муҳаммадив ва ъала али Муҳаммад. Кама барокта ъала Иброҳима ва ъала али Иброҳим. Иннака ҳамидум мажийд.'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -913,7 +913,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Аллоҳим! Иброҳимга ва Иброҳимнинг аҳли байтларига Ўз раҳматингни нозил қилганингдек, Муҳаммадга ва Муҳаммаднинг оила аъзоларига Ўзингнинг зиёда раҳматларингни нозил қилгин! Албатта, Сен мақталган, улуғланган Зотсан! Аллоҳим! Иброҳимга ва Иброҳимнинг аҳли байтларига Ўз баракангни нозил қилганингдек, Муҳаммадга ва Муҳаммаднинг оила аъзоларига Ўз баракангни нозил қилгин! Албатта, Сен мақталган, улуғланган Зотсан!'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -921,7 +921,7 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetRobbana: TTabSheet
-      Caption = 'Роббана'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelRobbanaAr: TLabel
@@ -946,7 +946,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Роббана! Атина фид дунйа ҳасанатав ва фил ахироти ҳасанатав-ва қина ъазабан нар'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -959,14 +959,14 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Роббимиз! Бизларга дунёда ҳам, охиратда ҳам яхшилик бер ва дўзах азобидан асра'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetSalom: TTabSheet
-      Caption = 'Салом'
+      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelSalomAr: TLabel
@@ -991,7 +991,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Ассалому алайкум ва раҳматуллоҳ'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -1004,14 +1004,14 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Сизларга Аллоҳнинг саломи ва раҳмати бўлсин'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetQunut: TTabSheet
-      Caption = 'Қунут'
+      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelQunutAr: TLabel
@@ -1035,7 +1035,7 @@ object FormDetails: TFormDetails
         Width = 714
         Align = alTop
         BorderSpacing.Around = 10
-        Caption = 'Аллоҳумма! Иннаа настаъийнука ва настағфирук.'#13#10'Ва нуъмину бика ва натаваккалу ъалайка ва нусний ъалайкал хойр.'#13#10'Нашкурука ва ла накфурук.'#13#10'Ва нахлаъу ва натруку ман йафжурук.'#13#10'Аллоҳумма! Иййака наъбуду ва лака нусоллий ва насжуду,'#13#10'ва илайка насъа ва наҳфиду, наржу роҳматака ва нахша ъазабака,'#13#10'инна ъазабака бил куффари мулҳиқ'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -1047,14 +1047,14 @@ object FormDetails: TFormDetails
         Width = 714
         Align = alTop
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Аллоҳим! Албатта, Сендан ёрдам сўраймиз, Сендан ҳидоят сўраймиз,'#13#10'Сенга истиғфор айтамиз ва Сенга тавба қиламиз.'#13#10'Сенга иймон келтирамиз ва Сенга таваккал қиламиз.'#13#10'Сенга шукр қиламиз, куфр келтирмаймиз.'#13#10'Ва ким Сенга фожирлик қилса, уни ажратамиз ва тарк қиламиз.'#13#10'Аллоҳим! Сенгагина ибодат қиламиз, Сенгагина намоз ўқиймиз ва сажда қиламиз,'#13#10'Сенгагина интиламиз ва шошиламиз.'#13#10'Ва Сенинг раҳматингни умид қиламиз ва азобингдан қўрқамиз.'#13#10'Албатта, азобинг кофирларга етгувчидир.'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetDuo: TTabSheet
-      Caption = 'Дуо'
+      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelDuoAr: TLabel
@@ -1079,7 +1079,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Аллоҳумма, антас-салам ва минкас-салам, табарокта йа залжалали вал-икром'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -1092,7 +1092,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Аллоҳим! Сен Саломсан, саломатлик Сендандир. Сен Табарруксан, эй жалол ва икром эгаси'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -1100,7 +1100,7 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetTasbeh: TTabSheet
-      Caption = 'Тасбеҳ'
+      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object PanelSubhanalloh: TPanel
@@ -1135,7 +1135,7 @@ object FormDetails: TFormDetails
           Width = 135
           Align = alLeft
           BorderSpacing.Around = 10
-          Caption = #13#10'Субҳаналлоҳ (33 марта)'
+          Caption = ''
           Font.Style = [fsBold]
           ParentColor = False
           ParentFont = False
@@ -1147,7 +1147,7 @@ object FormDetails: TFormDetails
           Width = 163
           Align = alLeft
           BorderSpacing.Around = 10
-          Caption = 'Маъноси:'#13#10'Аллоҳни поклаб зикр этаман'
+          Caption = ''
           Font.Style = [fsItalic]
           ParentColor = False
           ParentFont = False
@@ -1185,7 +1185,7 @@ object FormDetails: TFormDetails
           Width = 153
           Align = alLeft
           BorderSpacing.Around = 10
-          Caption = #13#10'Алҳамдулиллаҳ (33 марта)'
+          Caption = ''
           Font.Style = [fsBold]
           ParentColor = False
           ParentFont = False
@@ -1197,7 +1197,7 @@ object FormDetails: TFormDetails
           Width = 153
           Align = alLeft
           BorderSpacing.Around = 10
-          Caption = 'Маъноси:'#13#10'Мақтовлар Аллоҳга хосдир'
+          Caption = ''
           Font.Style = [fsItalic]
           ParentColor = False
           ParentFont = False
@@ -1235,7 +1235,7 @@ object FormDetails: TFormDetails
           Width = 139
           Align = alLeft
           BorderSpacing.Around = 10
-          Caption = #13#10'Аллоҳу акбар (33 марта)'
+          Caption = ''
           Font.Style = [fsBold]
           ParentColor = False
           ParentFont = False
@@ -1247,7 +1247,7 @@ object FormDetails: TFormDetails
           Width = 80
           Align = alLeft
           BorderSpacing.Around = 10
-          Caption = 'Маъноси:'#13#10'Аллоҳ улуғдир'
+          Caption = ''
           Font.Style = [fsItalic]
           ParentColor = False
           ParentFont = False
@@ -1275,7 +1275,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Ла илаҳа иллаллоҳу ваҳдаҳу ла шарика лаҳу, лаҳул мулку ва лаҳул ҳамду ва ҳува ъала кулли шайъин қодир'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -1289,7 +1289,7 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Аллоҳдан ўзга илоҳ йўқ. У ягонадир, шериги йўқ, бутун мулк Уникидир. Ҳамд-мақтов Унга хосдир. Ва У ҳар нарсага қодир зотдир.'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -1297,7 +1297,7 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetKursi: TTabSheet
-      Caption = 'Оятал Курсий'
+      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelKursiAr: TLabel
@@ -1321,7 +1321,7 @@ object FormDetails: TFormDetails
         Width = 334
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = #13#10'Аллоҳу ла илаҳа илла ҳувал ҳаййул қоййум.'#13#10'Ла таъхузуҳу cинатув ва ла навм.'#13#10'Лаҳу ма фис-самавати ва ма фил ард.'#13#10'Ман-заллазии йашфаъу ъиндаҳу илла би изниҳ.'#13#10'Йаъламу ма байна айдийҳим ва ма холфаҳум.'#13#10'Ва ла йуҳитуна бишайъим-мин ъилмиҳии илла бима ша.'#13#10'Васиъа курсийюуҳус-самаавати вал-ард.'#13#10'Ва ла йаудуҳу ҳифзуҳума'#13#10'Ва ҳувал ъалиййул ъазийм'
+        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -1333,7 +1333,7 @@ object FormDetails: TFormDetails
         Width = 424
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = 'Маъноси:'#13#10'Аллоҳ – Ундан ўзга илоҳ йўқ. У Ҳайй ва Қаййумдир.'#13#10'Уни мудроқ ҳам, уйқу ҳам олмас.'#13#10'Осмонлару ердаги нарсалар Уникидир.'#13#10'Унинг ҳузурида Ўзининг изнисиз ҳеч ким шафоат қила олмас.'#13#10'Уларнинг олдиларидаги нарсани ҳам, ортларидаги нарсани ҳам билур.'#13#10'Унинг илмидан Ўзи хоҳлаганидан бошқа ҳеч нарсани иҳота қила олмаслар.'#13#10'Унинг Курсиси осмонлару ерни қамраган.'#13#10'Уларни муҳофаза қилиш унга оғир келмас.'#13#10'Ва У Алий ва Азиймдир.'
+        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -1354,7 +1354,7 @@ object FormDetails: TFormDetails
     object ButtonPlay: TSpeedButton
       Left = 0
       Height = 36
-      Hint = 'Ижро эттириш'
+      Hint = ''
       Top = 0
       Width = 36
       Glyph.Data = {
@@ -1400,7 +1400,7 @@ object FormDetails: TFormDetails
     object ButtonStop: TSpeedButton
       Left = 72
       Height = 36
-      Hint = 'Тўхтатиш'
+      Hint = ''
       Top = 0
       Width = 36
       Enabled = False
@@ -1447,7 +1447,7 @@ object FormDetails: TFormDetails
     object ButtonPause: TSpeedButton
       Left = 36
       Height = 36
-      Hint = 'Пауза'
+      Hint = ''
       Top = 0
       Width = 36
       Enabled = False
