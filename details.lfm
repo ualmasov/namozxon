@@ -23,7 +23,6 @@ object FormDetails: TFormDetails
     TabIndex = 3
     TabOrder = 0
     object TabSheetAzonBomdod: TTabSheet
-      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelAzonBomdodDesc: TLabel
@@ -33,7 +32,6 @@ object FormDetails: TFormDetails
         Width = 714
         Align = alTop
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -60,7 +58,6 @@ object FormDetails: TFormDetails
         Width = 225
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -72,14 +69,12 @@ object FormDetails: TFormDetails
         Width = 334
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetAzon: TTabSheet
-      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelAzonDesc: TLabel
@@ -89,7 +84,6 @@ object FormDetails: TFormDetails
         Width = 714
         Align = alTop
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -116,7 +110,6 @@ object FormDetails: TFormDetails
         Width = 225
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Color = clWhite
         Font.Style = [fsBold]
         ParentColor = False
@@ -130,14 +123,13 @@ object FormDetails: TFormDetails
         Width = 334
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
+        
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetAzonDuo: TTabSheet
-      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelAzonDuoAr: TLabel
@@ -162,7 +154,6 @@ object FormDetails: TFormDetails
         Width = 888
         Align = alTop
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -175,7 +166,6 @@ object FormDetails: TFormDetails
         Width = 888
         Align = alTop
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -183,7 +173,7 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetIqomat: TTabSheet
-      Caption = ''
+      
       ClientHeight = 413
       ClientWidth = 734
       object LabelIqomatDesc: TLabel
@@ -193,7 +183,6 @@ object FormDetails: TFormDetails
         Width = 714
         Align = alTop
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -220,7 +209,6 @@ object FormDetails: TFormDetails
         Width = 227
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -232,14 +220,12 @@ object FormDetails: TFormDetails
         Width = 334
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetTakbir: TTabSheet
-      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelTakbirAr: TLabel
@@ -264,7 +250,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -277,14 +262,12 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetSano: TTabSheet
-      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelSanoAr: TLabel
@@ -309,7 +292,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -323,7 +305,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -331,7 +312,6 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetTaavvuz: TTabSheet
-      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelTaavvuzAr: TLabel
@@ -356,7 +336,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -370,7 +349,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -378,7 +356,6 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetBasmala: TTabSheet
-      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelBasmalaAr: TLabel
@@ -403,7 +380,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -417,7 +393,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -425,7 +400,6 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetFotiha: TTabSheet
-      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelFotihaAr: TLabel
@@ -449,7 +423,6 @@ object FormDetails: TFormDetails
         Width = 241
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -462,7 +435,6 @@ object FormDetails: TFormDetails
         Width = 415
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -470,7 +442,6 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetKavsar: TTabSheet
-      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelKavsarAr: TLabel
@@ -494,7 +465,6 @@ object FormDetails: TFormDetails
         Width = 161
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -507,14 +477,12 @@ object FormDetails: TFormDetails
         Width = 332
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetIxlos: TTabSheet
-      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelIxlosAr: TLabel
@@ -538,7 +506,6 @@ object FormDetails: TFormDetails
         Width = 175
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -550,14 +517,12 @@ object FormDetails: TFormDetails
         Width = 175
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetFalaq: TTabSheet
-      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelFalaqAr: TLabel
@@ -581,7 +546,6 @@ object FormDetails: TFormDetails
         Width = 219
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -593,14 +557,12 @@ object FormDetails: TFormDetails
         Width = 293
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetNas: TTabSheet
-      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelNasAr: TLabel
@@ -624,7 +586,6 @@ object FormDetails: TFormDetails
         Width = 196
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -636,7 +597,6 @@ object FormDetails: TFormDetails
         Width = 349
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -644,7 +604,6 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetAziym: TTabSheet
-      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelAziymAr: TLabel
@@ -669,7 +628,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -682,14 +640,12 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetSamialloh: TTabSheet
-      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelSamiallohAr: TLabel
@@ -714,7 +670,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -727,7 +682,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -735,7 +689,6 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetHamd: TTabSheet
-      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelHamdAr: TLabel
@@ -760,7 +713,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -773,14 +725,12 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetAla: TTabSheet
-      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelAlaAr: TLabel
@@ -805,7 +755,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -818,14 +767,12 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetTashahhud: TTabSheet
-      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelTashahhudAr: TLabel
@@ -851,7 +798,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -865,7 +811,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -873,7 +818,6 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetSalavot: TTabSheet
-      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelSalavotAr: TLabel
@@ -899,7 +843,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -913,7 +856,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -921,7 +863,6 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetRobbana: TTabSheet
-      Caption = ''
       ClientHeight = 471
       ClientWidth = 882
       object LabelRobbanaAr: TLabel
@@ -946,7 +887,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -959,14 +899,13 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetSalom: TTabSheet
-      Caption = ''
+      
       ClientHeight = 471
       ClientWidth = 882
       object LabelSalomAr: TLabel
@@ -991,7 +930,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -1004,14 +942,12 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetQunut: TTabSheet
-      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelQunutAr: TLabel
@@ -1035,7 +971,6 @@ object FormDetails: TFormDetails
         Width = 714
         Align = alTop
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -1047,14 +982,12 @@ object FormDetails: TFormDetails
         Width = 714
         Align = alTop
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
       end
     end
     object TabSheetDuo: TTabSheet
-      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelDuoAr: TLabel
@@ -1079,7 +1012,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -1092,7 +1024,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -1100,7 +1031,6 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetTasbeh: TTabSheet
-      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object PanelSubhanalloh: TPanel
@@ -1135,7 +1065,6 @@ object FormDetails: TFormDetails
           Width = 135
           Align = alLeft
           BorderSpacing.Around = 10
-          Caption = ''
           Font.Style = [fsBold]
           ParentColor = False
           ParentFont = False
@@ -1147,7 +1076,6 @@ object FormDetails: TFormDetails
           Width = 163
           Align = alLeft
           BorderSpacing.Around = 10
-          Caption = ''
           Font.Style = [fsItalic]
           ParentColor = False
           ParentFont = False
@@ -1185,7 +1113,6 @@ object FormDetails: TFormDetails
           Width = 153
           Align = alLeft
           BorderSpacing.Around = 10
-          Caption = ''
           Font.Style = [fsBold]
           ParentColor = False
           ParentFont = False
@@ -1197,7 +1124,6 @@ object FormDetails: TFormDetails
           Width = 153
           Align = alLeft
           BorderSpacing.Around = 10
-          Caption = ''
           Font.Style = [fsItalic]
           ParentColor = False
           ParentFont = False
@@ -1235,7 +1161,6 @@ object FormDetails: TFormDetails
           Width = 139
           Align = alLeft
           BorderSpacing.Around = 10
-          Caption = ''
           Font.Style = [fsBold]
           ParentColor = False
           ParentFont = False
@@ -1247,7 +1172,6 @@ object FormDetails: TFormDetails
           Width = 80
           Align = alLeft
           BorderSpacing.Around = 10
-          Caption = ''
           Font.Style = [fsItalic]
           ParentColor = False
           ParentFont = False
@@ -1275,7 +1199,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -1289,7 +1212,6 @@ object FormDetails: TFormDetails
         Align = alTop
         Alignment = taCenter
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
@@ -1297,7 +1219,6 @@ object FormDetails: TFormDetails
       end
     end
     object TabSheetKursi: TTabSheet
-      Caption = ''
       ClientHeight = 413
       ClientWidth = 734
       object LabelKursiAr: TLabel
@@ -1321,7 +1242,6 @@ object FormDetails: TFormDetails
         Width = 334
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsBold]
         ParentColor = False
         ParentFont = False
@@ -1333,7 +1253,6 @@ object FormDetails: TFormDetails
         Width = 424
         Align = alLeft
         BorderSpacing.Around = 10
-        Caption = ''
         Font.Style = [fsItalic]
         ParentColor = False
         ParentFont = False
